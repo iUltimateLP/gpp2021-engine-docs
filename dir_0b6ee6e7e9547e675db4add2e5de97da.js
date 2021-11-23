@@ -1,7 +1,5 @@
 var dir_0b6ee6e7e9547e675db4add2e5de97da =
 [
-    [ "obj", "dir_66d6a60e4ce26122bd05dd651523ed95.html", "dir_66d6a60e4ce26122bd05dd651523ed95" ],
-    [ "Properties", "dir_2b89e7432fa37f00dcb6f2def22fc802.html", "dir_2b89e7432fa37f00dcb6f2def22fc802" ],
     [ "SDL2-CS", "dir_e82e57b72bcd7282d3eb65dc80d1c0a9.html", "dir_e82e57b72bcd7282d3eb65dc80d1c0a9" ],
     [ "AudioManager.cs", "_audio_manager_8cs.html", "_audio_manager_8cs" ],
     [ "Cache.cs", "_cache_8cs.html", [
