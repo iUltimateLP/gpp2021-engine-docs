@@ -1,0 +1,26 @@
+var searchData=
+[
+  ['n_0',['N',['../namespace_engine.html#a66dcd1cf08e61de878504acc263ecb70a8d9c307cb7f3c4a32822a51922d1ceaa',1,'Engine']]],
+  ['name_1',['Name',['../struct_engine_1_1_audio_clip.html#a1756bd6d82d7c2207e6b6958c95ab8bc',1,'Engine.AudioClip.Name()'],['../struct_font_file.html#a8b4807c708149290d2282f773232588f',1,'FontFile.Name()'],['../class_engine_1_1_game_object.html#ae5a4518de133bd8d87e0ad6e654d377d',1,'Engine.GameObject.Name()']]],
+  ['name_2',['name',['../struct_s_d_l2_1_1_s_d_l_1_1_s_d_l___renderer_info.html#af64a5a07ca5b7f52a7aafc4f0a86f003',1,'SDL2::SDL::SDL_RendererInfo']]],
+  ['ncolors_3',['ncolors',['../struct_s_d_l2_1_1_s_d_l_1_1_s_d_l___palette.html#a7e3736182d9f16fc732692026867a28b',1,'SDL2::SDL::SDL_Palette']]],
+  ['new_3c_20t_20_3e_4',['New&lt; T &gt;',['../class_engine_1_1_game_object.html#af7f63f79f1d8ed5e9412d180f7cede73',1,'Engine::GameObject']]],
+  ['newchildentity_3c_20t_20_3e_5',['NewChildEntity&lt; T &gt;',['../class_engine_1_1_game_object.html#ade491f38456fca04a8ed2833a7ee01d5',1,'Engine::GameObject']]],
+  ['next_6',['next',['../struct_s_d_l2_1_1_s_d_l_1_1_s_d_l___pixel_format.html#a92059cc31bc30890bdff2c942c9748b5',1,'SDL2::SDL::SDL_PixelFormat']]],
+  ['none_7',['None',['../namespace_engine.html#a59b916987537b7af7d43520f32f66e34a6adf97f83acf6453d4a6a4b1070f3754',1,'Engine.None()'],['../namespace_engine.html#a1f6b60628333a454a949f2ae258d80c8a6adf97f83acf6453d4a6a4b1070f3754',1,'Engine.None()']]],
+  ['normal_8',['Normal',['../struct_engine_1_1_contact_event.html#aff48a92e64e843c536255562b863682d',1,'Engine::ContactEvent']]],
+  ['num_5f0_9',['NUM_0',['../namespace_engine.html#a66dcd1cf08e61de878504acc263ecb70a0337623d4049d913b2cc509174a59ba1',1,'Engine']]],
+  ['num_5f1_10',['NUM_1',['../namespace_engine.html#a66dcd1cf08e61de878504acc263ecb70a1eeacfec5e7988f11671c829698fc8b4',1,'Engine']]],
+  ['num_5f2_11',['NUM_2',['../namespace_engine.html#a66dcd1cf08e61de878504acc263ecb70aaa0af80237c5fd531521116e14de59c6',1,'Engine']]],
+  ['num_5f3_12',['NUM_3',['../namespace_engine.html#a66dcd1cf08e61de878504acc263ecb70aa4e4e51ea57e692332c72d32428b3851',1,'Engine']]],
+  ['num_5f4_13',['NUM_4',['../namespace_engine.html#a66dcd1cf08e61de878504acc263ecb70a990299ddc3e16ad13c9fe49337cdb53c',1,'Engine']]],
+  ['num_5f5_14',['NUM_5',['../namespace_engine.html#a66dcd1cf08e61de878504acc263ecb70a02addb75153754910d8344f8bfa06501',1,'Engine']]],
+  ['num_5f6_15',['NUM_6',['../namespace_engine.html#a66dcd1cf08e61de878504acc263ecb70a3b0a1f52347b7d7dc426c49536e3edba',1,'Engine']]],
+  ['num_5f7_16',['NUM_7',['../namespace_engine.html#a66dcd1cf08e61de878504acc263ecb70af45fde1eaac63c5a55cf87e584f5e6bb',1,'Engine']]],
+  ['num_5f8_17',['NUM_8',['../namespace_engine.html#a66dcd1cf08e61de878504acc263ecb70ade5947451686ebff12b3b3feb15043f4',1,'Engine']]],
+  ['num_5f9_18',['NUM_9',['../namespace_engine.html#a66dcd1cf08e61de878504acc263ecb70aad6039189d8fe566b7dfe30ea70f8b4d',1,'Engine']]],
+  ['num_5ftexture_5fformats_19',['num_texture_formats',['../struct_s_d_l2_1_1_s_d_l_1_1_s_d_l___renderer_info.html#a47bbe5e5a09a6a56ba4fbeb26436a8f1',1,'SDL2::SDL::SDL_RendererInfo']]],
+  ['numbuttons_20',['numbuttons',['../struct_s_d_l2_1_1_s_d_l_1_1_s_d_l___message_box_data.html#a4c12fe98e48eed268c361b397d4ea12a',1,'SDL2::SDL::SDL_MessageBoxData']]],
+  ['numfingers_21',['numFingers',['../struct_s_d_l2_1_1_s_d_l_1_1_s_d_l___multi_gesture_event.html#a334c38e7844d4b6c2ac8eccb50cafc0f',1,'SDL2.SDL.SDL_MultiGestureEvent.numFingers()'],['../struct_s_d_l2_1_1_s_d_l_1_1_s_d_l___dollar_gesture_event.html#a2d67c11a1543122a4259a557bc945f5c',1,'SDL2.SDL.SDL_DollarGestureEvent.numFingers()']]],
+  ['numlockclear_22',['NUMLOCKCLEAR',['../namespace_engine.html#a66dcd1cf08e61de878504acc263ecb70a86eb3a1e139b73fd6be04f1692a599dd',1,'Engine']]]
+];
