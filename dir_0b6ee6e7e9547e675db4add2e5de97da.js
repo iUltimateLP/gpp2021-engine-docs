@@ -19,7 +19,7 @@ var dir_0b6ee6e7e9547e675db4add2e5de97da =
     [ "Entity.cs", "_entity_8cs.html", "_entity_8cs" ],
     [ "FontManager.cs", "_font_manager_8cs.html", [
       [ "Engine.FontManager", "class_engine_1_1_font_manager.html", "class_engine_1_1_font_manager" ],
-      [ "FontFile", "struct_font_file.html", "struct_font_file" ]
+      [ "Engine.FontFile", "struct_engine_1_1_font_file.html", "struct_engine_1_1_font_file" ]
     ] ],
     [ "InputKeys.cs", "_input_keys_8cs.html", "_input_keys_8cs" ],
     [ "InputManager.cs", "_input_manager_8cs.html", [

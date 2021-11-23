@@ -35,7 +35,7 @@ var searchData=
   ['flags_32',['flags',['../struct_s_d_l2_1_1_s_d_l_1_1_s_d_l___surface.html#a70d9116d163e655b40fad32c71a854d4',1,'SDL2.SDL.SDL_Surface.flags()'],['../struct_s_d_l2_1_1_s_d_l_1_1_s_d_l___renderer_info.html#adf4aa4eed14e8dcc5f1d107d16795f43',1,'SDL2.SDL.SDL_RendererInfo.flags()'],['../struct_s_d_l2_1_1_s_d_l_1_1_s_d_l___message_box_data.html#accba5f1c7fc4e61f994679470ac0a62b',1,'SDL2.SDL.SDL_MessageBoxData.flags()'],['../struct_s_d_l2_1_1_s_d_l_1_1_s_d_l___message_box_button_data.html#a040373f7cb72e69e238c06edd434ec47',1,'SDL2.SDL.SDL_MessageBoxButtonData.flags()']]],
   ['flipmode_33',['FlipMode',['../class_engine_1_1_sprite.html#a53ae172a9b899d70d72830ab03108d3b',1,'Engine.Sprite.FlipMode()'],['../namespace_engine.html#a1f6b60628333a454a949f2ae258d80c8',1,'Engine.FlipMode()']]],
   ['font_34',['Font',['../class_engine_1_1_text_element.html#ae64f2f598351c91a463392502e3d4fcb',1,'Engine::TextElement']]],
-  ['fontfile_35',['FontFile',['../struct_font_file.html',1,'']]],
+  ['fontfile_35',['FontFile',['../struct_engine_1_1_font_file.html',1,'Engine']]],
   ['fontmanager_36',['FontManager',['../class_engine_1_1_font_manager.html',1,'Engine']]],
   ['fontmanager_2ecs_37',['FontManager.cs',['../_font_manager_8cs.html',1,'']]],
   ['foregroundcolor_38',['ForegroundColor',['../class_engine_1_1_text_element.html#a17cb31370285271cfdeac51827a5481f',1,'Engine::TextElement']]],

@@ -24,7 +24,7 @@ var hierarchy =
       [ "Engine.MouseEventArgs", "class_engine_1_1_mouse_event_args.html", null ],
       [ "Engine.MouseMoveEventArgs", "class_engine_1_1_mouse_move_event_args.html", null ]
     ] ],
-    [ "FontFile", "struct_font_file.html", null ],
+    [ "Engine.FontFile", "struct_engine_1_1_font_file.html", null ],
     [ "Engine.FontManager", "class_engine_1_1_font_manager.html", null ],
     [ "Engine.GameObject", "class_engine_1_1_game_object.html", [
       [ "Engine.Entity", "class_engine_1_1_entity.html", [

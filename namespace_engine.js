@@ -14,6 +14,7 @@ var namespace_engine =
     [ "EngineApp", "class_engine_1_1_engine_app.html", "class_engine_1_1_engine_app" ],
     [ "EngineMain", "class_engine_1_1_engine_main.html", null ],
     [ "Entity", "class_engine_1_1_entity.html", "class_engine_1_1_entity" ],
+    [ "FontFile", "struct_engine_1_1_font_file.html", "struct_engine_1_1_font_file" ],
     [ "FontManager", "class_engine_1_1_font_manager.html", "class_engine_1_1_font_manager" ],
     [ "GameObject", "class_engine_1_1_game_object.html", "class_engine_1_1_game_object" ],
     [ "InputManager", "class_engine_1_1_input_manager.html", "class_engine_1_1_input_manager" ],
