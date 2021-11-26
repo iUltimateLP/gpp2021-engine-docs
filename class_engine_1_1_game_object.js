@@ -7,5 +7,6 @@ var class_engine_1_1_game_object =
     [ "OnEnd", "class_engine_1_1_game_object.html#a0503aa747718e6a0def4fcaa69e42b9e", null ],
     [ "OnTick", "class_engine_1_1_game_object.html#ad5a783f293af4026b15478967d104bc8", null ],
     [ "Children", "class_engine_1_1_game_object.html#ac9df2c984abc12cc3411bf77837e6e21", null ],
+    [ "Active", "class_engine_1_1_game_object.html#ac9525de98c5dfbb90aa0d221b6aa6542", null ],
     [ "Name", "class_engine_1_1_game_object.html#ae5a4518de133bd8d87e0ad6e654d377d", null ]
 ];

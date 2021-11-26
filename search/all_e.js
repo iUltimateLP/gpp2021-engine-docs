@@ -1,8 +1,8 @@
 var searchData=
 [
   ['n_0',['N',['../namespace_engine.html#a66dcd1cf08e61de878504acc263ecb70a8d9c307cb7f3c4a32822a51922d1ceaa',1,'Engine']]],
-  ['name_1',['Name',['../struct_engine_1_1_audio_clip.html#a1756bd6d82d7c2207e6b6958c95ab8bc',1,'Engine.AudioClip.Name()'],['../struct_engine_1_1_font_file.html#a7e56d9646c39ee67c2083dd9230c03e0',1,'Engine.FontFile.Name()'],['../class_engine_1_1_game_object.html#ae5a4518de133bd8d87e0ad6e654d377d',1,'Engine.GameObject.Name()']]],
-  ['name_2',['name',['../struct_s_d_l2_1_1_s_d_l_1_1_s_d_l___renderer_info.html#af64a5a07ca5b7f52a7aafc4f0a86f003',1,'SDL2::SDL::SDL_RendererInfo']]],
+  ['name_1',['name',['../struct_s_d_l2_1_1_s_d_l_1_1_s_d_l___renderer_info.html#af64a5a07ca5b7f52a7aafc4f0a86f003',1,'SDL2::SDL::SDL_RendererInfo']]],
+  ['name_2',['Name',['../struct_engine_1_1_audio_clip.html#a1756bd6d82d7c2207e6b6958c95ab8bc',1,'Engine.AudioClip.Name()'],['../struct_engine_1_1_font_file.html#a7e56d9646c39ee67c2083dd9230c03e0',1,'Engine.FontFile.Name()'],['../class_engine_1_1_game_object.html#ae5a4518de133bd8d87e0ad6e654d377d',1,'Engine.GameObject.Name()']]],
   ['ncolors_3',['ncolors',['../struct_s_d_l2_1_1_s_d_l_1_1_s_d_l___palette.html#a7e3736182d9f16fc732692026867a28b',1,'SDL2::SDL::SDL_Palette']]],
   ['new_3c_20t_20_3e_4',['New&lt; T &gt;',['../class_engine_1_1_game_object.html#af7f63f79f1d8ed5e9412d180f7cede73',1,'Engine::GameObject']]],
   ['newchildentity_3c_20t_20_3e_5',['NewChildEntity&lt; T &gt;',['../class_engine_1_1_game_object.html#ade491f38456fca04a8ed2833a7ee01d5',1,'Engine::GameObject']]],
