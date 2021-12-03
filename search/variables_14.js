@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['text_0',['text',['../struct_s_d_l2_1_1_s_d_l_1_1_s_d_l___message_box_button_data.html#a95e507e7e8da7a2b5a8327baee58f375',1,'SDL2.SDL.SDL_MessageBoxButtonData.text()'],['../struct_s_d_l2_1_1_s_d_l_1_1_s_d_l___text_editing_event.html#ae8a83968561ee9481070283a84188b45',1,'SDL2.SDL.SDL_TextEditingEvent.text()'],['../struct_s_d_l2_1_1_s_d_l_1_1_s_d_l___text_input_event.html#afb3fb84ad5a37156fb2397aca025c199',1,'SDL2.SDL.SDL_TextInputEvent.text()'],['../struct_s_d_l2_1_1_s_d_l_1_1_s_d_l___event.html#ae506c26c8429dd7eca56e31e51d4183f',1,'SDL2.SDL.SDL_Event.text()']]],
-  ['text_1',['Text',['../class_engine_1_1_text_element.html#a8acfbc587b968c7847da39554dc4b982',1,'Engine::TextElement']]],
+  ['text_0',['Text',['../class_engine_1_1_text_element.html#a8acfbc587b968c7847da39554dc4b982',1,'Engine::TextElement']]],
+  ['text_1',['text',['../struct_s_d_l2_1_1_s_d_l_1_1_s_d_l___message_box_button_data.html#a95e507e7e8da7a2b5a8327baee58f375',1,'SDL2.SDL.SDL_MessageBoxButtonData.text()'],['../struct_s_d_l2_1_1_s_d_l_1_1_s_d_l___text_editing_event.html#ae8a83968561ee9481070283a84188b45',1,'SDL2.SDL.SDL_TextEditingEvent.text()'],['../struct_s_d_l2_1_1_s_d_l_1_1_s_d_l___text_input_event.html#afb3fb84ad5a37156fb2397aca025c199',1,'SDL2.SDL.SDL_TextInputEvent.text()'],['../struct_s_d_l2_1_1_s_d_l_1_1_s_d_l___event.html#ae506c26c8429dd7eca56e31e51d4183f',1,'SDL2.SDL.SDL_Event.text()']]],
   ['texture_5fformats_2',['texture_formats',['../struct_s_d_l2_1_1_s_d_l_1_1_s_d_l___renderer_info.html#afd315c7c2acbad5c01e7af10365d18c2',1,'SDL2::SDL::SDL_RendererInfo']]],
   ['textureheight_3',['TextureHeight',['../class_engine_1_1_sprite_cache_element.html#aad770ae5bfeee1f6e79a17305782ecab',1,'Engine::SpriteCacheElement']]],
   ['texturewidth_4',['TextureWidth',['../class_engine_1_1_sprite_cache_element.html#ae3b7836341963d559bfd3afcd7785c69',1,'Engine::SpriteCacheElement']]],

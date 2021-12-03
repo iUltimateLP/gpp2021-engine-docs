@@ -114,6 +114,10 @@ var hierarchy =
     [ "SDL2.SDL.SDL_UserEvent", "struct_s_d_l2_1_1_s_d_l_1_1_s_d_l___user_event.html", null ],
     [ "SDL2.SDL.SDL_version", "struct_s_d_l2_1_1_s_d_l_1_1_s_d_l__version.html", null ],
     [ "SDL2.SDL.SDL_WindowEvent", "struct_s_d_l2_1_1_s_d_l_1_1_s_d_l___window_event.html", null ],
+    [ "Engine.UIElement", "class_engine_1_1_u_i_element.html", [
+      [ "Engine.UIButton", "class_engine_1_1_u_i_button.html", null ]
+    ] ],
+    [ "Engine.UIManager", "class_engine_1_1_u_i_manager.html", null ],
     [ "Engine.Utils", "class_engine_1_1_utils.html", null ],
     [ "Engine.WindowManager", "class_engine_1_1_window_manager.html", null ]
 ];

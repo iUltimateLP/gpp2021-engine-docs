@@ -29,6 +29,9 @@ var namespace_engine =
     [ "Sprite", "class_engine_1_1_sprite.html", "class_engine_1_1_sprite" ],
     [ "SpriteCacheElement", "class_engine_1_1_sprite_cache_element.html", "class_engine_1_1_sprite_cache_element" ],
     [ "TextElement", "class_engine_1_1_text_element.html", "class_engine_1_1_text_element" ],
+    [ "UIButton", "class_engine_1_1_u_i_button.html", "class_engine_1_1_u_i_button" ],
+    [ "UIElement", "class_engine_1_1_u_i_element.html", "class_engine_1_1_u_i_element" ],
+    [ "UIManager", "class_engine_1_1_u_i_manager.html", "class_engine_1_1_u_i_manager" ],
     [ "Utils", "class_engine_1_1_utils.html", null ],
     [ "WindowManager", "class_engine_1_1_window_manager.html", "class_engine_1_1_window_manager" ],
     [ "AudioClipType", "namespace_engine.html#aa2b595b92b029c71b4a0c30f1e13fb1a", [
@@ -319,5 +322,9 @@ var namespace_engine =
     [ "TransformChangeReason", "namespace_engine.html#ac76009efc0416b20a4939500ca31934e", [
       [ "Manual", "namespace_engine.html#ac76009efc0416b20a4939500ca31934eae1ba155a9f2e8c3be94020eef32a0301", null ],
       [ "Physics", "namespace_engine.html#ac76009efc0416b20a4939500ca31934ea50ae99e9c35446c2580e4b540b0fd104", null ]
+    ] ],
+    [ "UIEventResult", "namespace_engine.html#aa1d1d1ae35b8568b5ecce78afa720930", [
+      [ "Unhandled", "namespace_engine.html#aa1d1d1ae35b8568b5ecce78afa720930a6fe9e16b804e1ce4ac5868be60615007", null ],
+      [ "Handled", "namespace_engine.html#aa1d1d1ae35b8568b5ecce78afa720930a827211270de454ea3e0df8f57995efed", null ]
     ] ]
 ];

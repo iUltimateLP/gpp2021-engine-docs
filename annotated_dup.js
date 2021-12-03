@@ -30,6 +30,9 @@ var annotated_dup =
       [ "Sprite", "class_engine_1_1_sprite.html", "class_engine_1_1_sprite" ],
       [ "SpriteCacheElement", "class_engine_1_1_sprite_cache_element.html", "class_engine_1_1_sprite_cache_element" ],
       [ "TextElement", "class_engine_1_1_text_element.html", "class_engine_1_1_text_element" ],
+      [ "UIButton", "class_engine_1_1_u_i_button.html", "class_engine_1_1_u_i_button" ],
+      [ "UIElement", "class_engine_1_1_u_i_element.html", "class_engine_1_1_u_i_element" ],
+      [ "UIManager", "class_engine_1_1_u_i_manager.html", "class_engine_1_1_u_i_manager" ],
       [ "Utils", "class_engine_1_1_utils.html", null ],
       [ "WindowManager", "class_engine_1_1_window_manager.html", "class_engine_1_1_window_manager" ]
     ] ]
