@@ -5,8 +5,16 @@ var searchData=
   ['hat_5fmask_2',['hat_mask',['../struct_s_d_l2_1_1_s_d_l_1_1_i_n_t_e_r_n_a_l___game_controller_button_bind__hat.html#a71292cb45fa8fdc6c3a69bbb423e5be2',1,'SDL2::SDL::INTERNAL_GameControllerButtonBind_hat']]],
   ['hatvalue_3',['hatValue',['../struct_s_d_l2_1_1_s_d_l_1_1_s_d_l___joy_hat_event.html#a839b46150839671c61f845a8fba14223',1,'SDL2::SDL::SDL_JoyHatEvent']]],
   ['hdc_4',['hdc',['../struct_s_d_l2_1_1_s_d_l_1_1_i_n_t_e_r_n_a_l__windows__wminfo.html#a2a8c48bbcf13c2dbfeebab49f9c5e372',1,'SDL2::SDL::INTERNAL_windows_wminfo']]],
-  ['hinstance_5',['hinstance',['../struct_s_d_l2_1_1_s_d_l_1_1_i_n_t_e_r_n_a_l__windows__wminfo.html#a3fc360f6c571f80f2fdcb44bf17bc932',1,'SDL2::SDL::INTERNAL_windows_wminfo']]],
-  ['hoverevent_6',['HoverEvent',['../class_engine_1_1_u_i_element.html#a03e0794ee0c481d080566e6661e18646',1,'Engine::UIElement']]],
-  ['hwnd_7',['hwnd',['../struct_s_d_l2_1_1_s_d_l_1_1_i_n_t_e_r_n_a_l__os2__wminfo.html#aa6bf0c53095fefb2a6fb8e166ca097cd',1,'SDL2::SDL::INTERNAL_os2_wminfo']]],
-  ['hwndframe_8',['hwndFrame',['../struct_s_d_l2_1_1_s_d_l_1_1_i_n_t_e_r_n_a_l__os2__wminfo.html#ab1223c7130449d83126fc2fc0c870e92',1,'SDL2::SDL::INTERNAL_os2_wminfo']]]
+  ['heart_5',['heart',['../class_bullet_hell_1_1_game_manager.html#ae155db71b57804effcd601c137648cab',1,'BulletHell::GameManager']]],
+  ['hearts_6',['hearts',['../class_breakout_1_1_game_manager.html#a9b4fe53ef813d728be902d14ab5c5feb',1,'Breakout::GameManager']]],
+  ['heartste_7',['heartsTE',['../class_breakout_1_1_game_manager.html#a8f30848c71191a0cab8bd6260c8d0620',1,'Breakout::GameManager']]],
+  ['highscore_8',['highscore',['../class_breakout_1_1_highscore_config.html#af5a19b091e3a5a181fb51ceccf5a19ea',1,'Breakout.HighscoreConfig.highscore()'],['../class_breakout_1_1_game_manager.html#a03b4175bcbac5c04554d95b824032638',1,'Breakout.GameManager.highscore()']]],
+  ['highscoreconfig_9',['highscoreConfig',['../class_breakout_1_1_game_manager.html#af1111261ddc48ffcdfee88ec7cc08e33',1,'Breakout::GameManager']]],
+  ['highscorete_10',['highscoreTE',['../class_breakout_1_1_game_manager.html#a2eb7c79d15e7bb2da0d77ab0e81531d1',1,'Breakout::GameManager']]],
+  ['hinstance_11',['hinstance',['../struct_s_d_l2_1_1_s_d_l_1_1_i_n_t_e_r_n_a_l__windows__wminfo.html#a3fc360f6c571f80f2fdcb44bf17bc932',1,'SDL2::SDL::INTERNAL_windows_wminfo']]],
+  ['hitpoints_12',['hitpoints',['../class_breakout_1_1_brick_config.html#a89121c75eac587f8d3b349c960d7c738',1,'Breakout.BrickConfig.hitpoints()'],['../class_bullet_hell_1_1_bullet.html#a4e1a5f16e27a1a4eb7d8a0781794b190',1,'BulletHell.Bullet.hitpoints()'],['../class_bullet_hell_1_1_enemy.html#abf447d3d3d2ee1e8808139970dab5971',1,'BulletHell.Enemy.hitpoints()']]],
+  ['hostile_13',['hostile',['../class_bullet_hell_1_1_bullet.html#a3ff6f253ffae8cf902c1c8dce94980fd',1,'BulletHell.Bullet.hostile()'],['../class_bullet_hell_1_1_weapon.html#a4e8a2aa2e55954f527a35dd77ab02a76',1,'BulletHell.Weapon.hostile()']]],
+  ['hoverevent_14',['HoverEvent',['../class_engine_1_1_u_i_element.html#a03e0794ee0c481d080566e6661e18646',1,'Engine::UIElement']]],
+  ['hwnd_15',['hwnd',['../struct_s_d_l2_1_1_s_d_l_1_1_i_n_t_e_r_n_a_l__os2__wminfo.html#aa6bf0c53095fefb2a6fb8e166ca097cd',1,'SDL2::SDL::INTERNAL_os2_wminfo']]],
+  ['hwndframe_16',['hwndFrame',['../struct_s_d_l2_1_1_s_d_l_1_1_i_n_t_e_r_n_a_l__os2__wminfo.html#ab1223c7130449d83126fc2fc0c870e92',1,'SDL2::SDL::INTERNAL_os2_wminfo']]]
 ];

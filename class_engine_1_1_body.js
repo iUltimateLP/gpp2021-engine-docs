@@ -5,6 +5,9 @@ var class_engine_1_1_body =
     [ "Destroy", "class_engine_1_1_body.html#a56671e321eab75677793e660a0ac0412", null ],
     [ "SetTransform", "class_engine_1_1_body.html#a1211143adf5cd7c840ceaca711593da0", null ],
     [ "Update", "class_engine_1_1_body.html#ad450c5de6d5eb86768438b93caa7901d", null ],
+    [ "CollisionCategoryBits", "class_engine_1_1_body.html#ac38f07c543aa39482208e551e87e4b5a", null ],
+    [ "CollisionGroupIndex", "class_engine_1_1_body.html#acb64ae1d11ac16180de851c783d0e922", null ],
+    [ "CollisionMaskBits", "class_engine_1_1_body.html#a07dd421a10c3f276bf78ce861d8280ae", null ],
     [ "LimitVelocity", "class_engine_1_1_body.html#aec10e0114006f47e3f3601c8e87564f3", null ],
     [ "MaxVelocity", "class_engine_1_1_body.html#a22b0b319b06d26e3b9012b0847f73674", null ],
     [ "MovementConstraints", "class_engine_1_1_body.html#aa9229c3ac9d580889319724b4e0237db", null ],
@@ -16,6 +19,8 @@ var class_engine_1_1_body =
     [ "Angle", "class_engine_1_1_body.html#ac07a262d019306d9375d1de2278ec942", null ],
     [ "Density", "class_engine_1_1_body.html#a058b7c7baa43b85bf93475ceae50793c", null ],
     [ "Friction", "class_engine_1_1_body.html#a8567dfbd52cbf93fa8d87da0d206546c", null ],
+    [ "IsBullet", "class_engine_1_1_body.html#a0c053733227bb763d617d96b9c898963", null ],
+    [ "IsSensor", "class_engine_1_1_body.html#aed586671fdc4bada5387409320084355", null ],
     [ "Location", "class_engine_1_1_body.html#aa57b1837e00b4a37d588871ad429475b", null ],
     [ "Restitution", "class_engine_1_1_body.html#a75ef511b68689adddfc4f6328ecea21b", null ],
     [ "Velocity", "class_engine_1_1_body.html#a66c7346ee67ac0dc3358b305f0743164", null ]

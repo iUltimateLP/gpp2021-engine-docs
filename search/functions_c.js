@@ -1,10 +1,8 @@
 var searchData=
 [
-  ['onbegin_0',['OnBegin',['../class_engine_1_1_sprite.html#afa4539c72e81b53cf9e5aa3f2cb0edd6',1,'Engine.Sprite.OnBegin()'],['../class_engine_1_1_text_element.html#a75be1328e5ad44b868dc872db3b10d29',1,'Engine.TextElement.OnBegin()'],['../class_engine_1_1_game_object.html#a22c40da3d9d1f862e12b87e18add5008',1,'Engine.GameObject.OnBegin()'],['../class_engine_1_1_physics_entity.html#a299800df5afa5ddf016fbf11633bea81',1,'Engine.PhysicsEntity.OnBegin()']]],
-  ['onclick_1',['OnClick',['../class_engine_1_1_u_i_button.html#a919dfe796c25f9f8b9de86662564f944',1,'Engine.UIButton.OnClick()'],['../class_engine_1_1_u_i_element.html#a398b2e78b891b6e0ac431a1fbe036d6b',1,'Engine.UIElement.OnClick()']]],
-  ['onend_2',['OnEnd',['../class_engine_1_1_sprite.html#a94a27ecd1c5948b314193819a1c7a9bb',1,'Engine.Sprite.OnEnd()'],['../class_engine_1_1_text_element.html#a15326604de19237c0c4e5098df29e9e1',1,'Engine.TextElement.OnEnd()'],['../class_engine_1_1_game_object.html#a0503aa747718e6a0def4fcaa69e42b9e',1,'Engine.GameObject.OnEnd()'],['../class_engine_1_1_physics_entity.html#a52128def0cc58ceb3057c4d5c11345b9',1,'Engine.PhysicsEntity.OnEnd()']]],
-  ['onhover_3',['OnHover',['../class_engine_1_1_u_i_element.html#a29be5c1526fc11585dbe8babb51f5216',1,'Engine::UIElement']]],
-  ['onleave_4',['OnLeave',['../class_engine_1_1_u_i_element.html#a05e408173ff92f109c5524f57a77bfa9',1,'Engine::UIElement']]],
-  ['ontick_5',['OnTick',['../class_engine_1_1_sprite.html#a7a3ca7ac9791a2cf48d5375cefef37ec',1,'Engine.Sprite.OnTick()'],['../class_engine_1_1_text_element.html#a9a7191b8e0e7f097b55bf58461ca5619',1,'Engine.TextElement.OnTick()'],['../class_engine_1_1_game_object.html#ad5a783f293af4026b15478967d104bc8',1,'Engine.GameObject.OnTick()'],['../class_engine_1_1_physics_entity.html#ab758559b490a541acab6ebd1ca7db072',1,'Engine.PhysicsEntity.OnTick()']]],
-  ['ontransformchanged_6',['OnTransformChanged',['../class_engine_1_1_sprite.html#af81677d24239bf7a6f7f2e82942a9729',1,'Engine.Sprite.OnTransformChanged()'],['../class_engine_1_1_text_element.html#adb9cf623161ac3642f159faf86f98583',1,'Engine.TextElement.OnTransformChanged()'],['../class_engine_1_1_entity.html#a204b639ad72c19153b724b5d901f5953',1,'Engine.Entity.OnTransformChanged()'],['../class_engine_1_1_physics_entity.html#a628c28a6da8eacf1570c4adcad16acdd',1,'Engine.PhysicsEntity.OnTransformChanged()']]]
+  ['new_3c_20t_20_3e_0',['New&lt; T &gt;',['../class_engine_1_1_game_object.html#af7f63f79f1d8ed5e9412d180f7cede73',1,'Engine::GameObject']]],
+  ['newchildentity_3c_20t_20_3e_1',['NewChildEntity&lt; T &gt;',['../class_engine_1_1_game_object.html#ade491f38456fca04a8ed2833a7ee01d5',1,'Engine::GameObject']]],
+  ['nextlevel_2',['NextLevel',['../class_breakout_1_1_game_manager.html#a54bddeee71a4058732144b7618af0b37',1,'Breakout::GameManager']]],
+  ['notenoughbullets_3',['NotEnoughBullets',['../class_bullet_hell_1_1_pool.html#abdb1bc88c7317aeaba59a1f2b8df4d7d',1,'BulletHell::Pool']]],
+  ['notenoughenemies_4',['NotEnoughEnemies',['../class_bullet_hell_1_1_pool.html#abe09acb7bedec87c65bbbe72095ed01c',1,'BulletHell::Pool']]]
 ];

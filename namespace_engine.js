@@ -1,11 +1,15 @@
 var namespace_engine =
 [
+    [ "ActionEventArgs", "class_engine_1_1_action_event_args.html", "class_engine_1_1_action_event_args" ],
+    [ "AnimatedSprite", "class_engine_1_1_animated_sprite.html", "class_engine_1_1_animated_sprite" ],
     [ "AudioClip", "struct_engine_1_1_audio_clip.html", "struct_engine_1_1_audio_clip" ],
     [ "AudioManager", "class_engine_1_1_audio_manager.html", "class_engine_1_1_audio_manager" ],
+    [ "BatchedRendererElementInfo", "struct_engine_1_1_batched_renderer_element_info.html", "struct_engine_1_1_batched_renderer_element_info" ],
     [ "Body", "class_engine_1_1_body.html", "class_engine_1_1_body" ],
     [ "Box2DDebugDraw", "class_engine_1_1_box2_d_debug_draw.html", "class_engine_1_1_box2_d_debug_draw" ],
     [ "Cache", "class_engine_1_1_cache.html", "class_engine_1_1_cache" ],
     [ "CacheElement", "class_engine_1_1_cache_element.html", "class_engine_1_1_cache_element" ],
+    [ "Camera", "class_engine_1_1_camera.html", "class_engine_1_1_camera" ],
     [ "ConfigManager", "class_engine_1_1_config_manager.html", "class_engine_1_1_config_manager" ],
     [ "ConfigObject", "class_engine_1_1_config_object.html", "class_engine_1_1_config_object" ],
     [ "ContactEvent", "struct_engine_1_1_contact_event.html", "struct_engine_1_1_contact_event" ],
@@ -17,21 +21,34 @@ var namespace_engine =
     [ "FontFile", "struct_engine_1_1_font_file.html", "struct_engine_1_1_font_file" ],
     [ "FontManager", "class_engine_1_1_font_manager.html", "class_engine_1_1_font_manager" ],
     [ "GameObject", "class_engine_1_1_game_object.html", "class_engine_1_1_game_object" ],
+    [ "GamepadMapping", "class_engine_1_1_gamepad_mapping.html", "class_engine_1_1_gamepad_mapping" ],
+    [ "GamepadsConfig", "class_engine_1_1_gamepads_config.html", "class_engine_1_1_gamepads_config" ],
+    [ "GameStateManager", "class_engine_1_1_game_state_manager.html", "class_engine_1_1_game_state_manager" ],
+    [ "IGameState", "interface_engine_1_1_i_game_state.html", "interface_engine_1_1_i_game_state" ],
+    [ "InputAction", "class_engine_1_1_input_action.html", "class_engine_1_1_input_action" ],
     [ "InputManager", "class_engine_1_1_input_manager.html", "class_engine_1_1_input_manager" ],
+    [ "InputMappingConfig", "class_engine_1_1_input_mapping_config.html", "class_engine_1_1_input_mapping_config" ],
     [ "KeyEventArgs", "class_engine_1_1_key_event_args.html", "class_engine_1_1_key_event_args" ],
     [ "Logger", "class_engine_1_1_logger.html", null ],
+    [ "MathUtils", "class_engine_1_1_math_utils.html", null ],
     [ "MouseEventArgs", "class_engine_1_1_mouse_event_args.html", "class_engine_1_1_mouse_event_args" ],
     [ "MouseMoveEventArgs", "class_engine_1_1_mouse_move_event_args.html", "class_engine_1_1_mouse_move_event_args" ],
+    [ "MouseWheelEventArgs", "class_engine_1_1_mouse_wheel_event_args.html", "class_engine_1_1_mouse_wheel_event_args" ],
     [ "PhysicsEntity", "class_engine_1_1_physics_entity.html", "class_engine_1_1_physics_entity" ],
     [ "PhysicsManager", "class_engine_1_1_physics_manager.html", "class_engine_1_1_physics_manager" ],
     [ "RendererManager", "class_engine_1_1_renderer_manager.html", "class_engine_1_1_renderer_manager" ],
+    [ "ResolutionChangedEventArgs", "class_engine_1_1_resolution_changed_event_args.html", "class_engine_1_1_resolution_changed_event_args" ],
     [ "ResourceManager", "class_engine_1_1_resource_manager.html", null ],
     [ "Sprite", "class_engine_1_1_sprite.html", "class_engine_1_1_sprite" ],
     [ "SpriteCacheElement", "class_engine_1_1_sprite_cache_element.html", "class_engine_1_1_sprite_cache_element" ],
+    [ "SpritesheetInfo", "struct_engine_1_1_spritesheet_info.html", "struct_engine_1_1_spritesheet_info" ],
     [ "TextElement", "class_engine_1_1_text_element.html", "class_engine_1_1_text_element" ],
+    [ "Timer", "class_engine_1_1_timer.html", "class_engine_1_1_timer" ],
     [ "UIButton", "class_engine_1_1_u_i_button.html", "class_engine_1_1_u_i_button" ],
     [ "UIElement", "class_engine_1_1_u_i_element.html", "class_engine_1_1_u_i_element" ],
     [ "UIManager", "class_engine_1_1_u_i_manager.html", "class_engine_1_1_u_i_manager" ],
+    [ "UISprite", "class_engine_1_1_u_i_sprite.html", "class_engine_1_1_u_i_sprite" ],
+    [ "UIText", "class_engine_1_1_u_i_text.html", "class_engine_1_1_u_i_text" ],
     [ "Utils", "class_engine_1_1_utils.html", null ],
     [ "WindowManager", "class_engine_1_1_window_manager.html", "class_engine_1_1_window_manager" ],
     [ "AudioClipType", "namespace_engine.html#aa2b595b92b029c71b4a0c30f1e13fb1a", [
@@ -58,6 +75,24 @@ var namespace_engine =
       [ "None", "namespace_engine.html#a1f6b60628333a454a949f2ae258d80c8a6adf97f83acf6453d4a6a4b1070f3754", null ],
       [ "Horizontal", "namespace_engine.html#a1f6b60628333a454a949f2ae258d80c8ac1b5fa03ecdb95d4a45dd1c40b02527f", null ],
       [ "Vertical", "namespace_engine.html#a1f6b60628333a454a949f2ae258d80c8a06ce2a25e5d12c166a36f654dbea6012", null ]
+    ] ],
+    [ "GamepadButton", "namespace_engine.html#ab8b15b286f54cb7aa03fc842f5af8187", [
+      [ "A", "namespace_engine.html#ab8b15b286f54cb7aa03fc842f5af8187a7fc56270e7a70fa81a5935b72eacbe29", null ],
+      [ "B", "namespace_engine.html#ab8b15b286f54cb7aa03fc842f5af8187a9d5ed678fe57bcca610140957afab571", null ],
+      [ "X", "namespace_engine.html#ab8b15b286f54cb7aa03fc842f5af8187a02129bb861061d1a052c592e2dc6b383", null ],
+      [ "Y", "namespace_engine.html#ab8b15b286f54cb7aa03fc842f5af8187a57cec4137b614c87cb4e24a3d003a3e0", null ],
+      [ "Minus", "namespace_engine.html#ab8b15b286f54cb7aa03fc842f5af8187a453fb623e752c5993f65bc410fd74fe5", null ],
+      [ "Home", "namespace_engine.html#ab8b15b286f54cb7aa03fc842f5af8187a8cf04a9734132302f96da8e113e80ce5", null ],
+      [ "Plus", "namespace_engine.html#ab8b15b286f54cb7aa03fc842f5af8187a32ba78fe43257d3e7f88e3935a8ea0d4", null ],
+      [ "LeftJoystick", "namespace_engine.html#ab8b15b286f54cb7aa03fc842f5af8187acffb4678bfceb78fff11578d2b77ca3e", null ],
+      [ "RightJoystick", "namespace_engine.html#ab8b15b286f54cb7aa03fc842f5af8187a94e919e9ac914e3d3197813af06b8859", null ],
+      [ "LeftTrigger", "namespace_engine.html#ab8b15b286f54cb7aa03fc842f5af8187ac412c6d19da2afaf2dc8891f5bcb8901", null ],
+      [ "RightTrigger", "namespace_engine.html#ab8b15b286f54cb7aa03fc842f5af8187a837ed99a897594cef0d37403a18f0df0", null ],
+      [ "Dpad_Up", "namespace_engine.html#ab8b15b286f54cb7aa03fc842f5af8187adb6696527558cf56a9e9fcfcfa189aed", null ],
+      [ "Dpad_Down", "namespace_engine.html#ab8b15b286f54cb7aa03fc842f5af8187aad9c06efd23aadd318f8f1119c685a3f", null ],
+      [ "Dpad_Left", "namespace_engine.html#ab8b15b286f54cb7aa03fc842f5af8187a76d77bd51fd3bee614807c0af59d1103", null ],
+      [ "Dpad_Right", "namespace_engine.html#ab8b15b286f54cb7aa03fc842f5af8187a386f982df94e8fbd56a020d10b510fe1", null ],
+      [ "Screenshot", "namespace_engine.html#ab8b15b286f54cb7aa03fc842f5af8187a3afbd9828e011526955ca93b48b57524", null ]
     ] ],
     [ "KeyCode", "namespace_engine.html#a66dcd1cf08e61de878504acc263ecb70", [
       [ "UNKNOWN", "namespace_engine.html#a66dcd1cf08e61de878504acc263ecb70a696b031073e74bf2cb98e5ef201d4aa3", null ],
@@ -326,5 +361,9 @@ var namespace_engine =
     [ "UIEventResult", "namespace_engine.html#aa1d1d1ae35b8568b5ecce78afa720930", [
       [ "Unhandled", "namespace_engine.html#aa1d1d1ae35b8568b5ecce78afa720930a6fe9e16b804e1ce4ac5868be60615007", null ],
       [ "Handled", "namespace_engine.html#aa1d1d1ae35b8568b5ecce78afa720930a827211270de454ea3e0df8f57995efed", null ]
+    ] ],
+    [ "WrappingMode", "namespace_engine.html#aefbaefb596e4cf227ed4d6c379c67965", [
+      [ "Stretch", "namespace_engine.html#aefbaefb596e4cf227ed4d6c379c67965afbb09a82eafab60150d0996e8fe46560", null ],
+      [ "Repeat", "namespace_engine.html#aefbaefb596e4cf227ed4d6c379c67965a7020426cfb0a204051be4b3053d2acc8", null ]
     ] ]
 ];

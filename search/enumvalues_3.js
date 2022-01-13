@@ -5,6 +5,18 @@ var searchData=
   ['decimalseparator_2',['DECIMALSEPARATOR',['../namespace_engine.html#a66dcd1cf08e61de878504acc263ecb70a52e94009fed7aa37078438db3b45a05a',1,'Engine']]],
   ['delete_3',['DELETE',['../namespace_engine.html#a66dcd1cf08e61de878504acc263ecb70a32f68a60cef40faedbc6af20298c1a1e',1,'Engine']]],
   ['displayswitch_4',['DISPLAYSWITCH',['../namespace_engine.html#a66dcd1cf08e61de878504acc263ecb70ac028ed55a0f1dd0a7780c3add90ab259',1,'Engine']]],
-  ['dollar_5',['DOLLAR',['../namespace_engine.html#a66dcd1cf08e61de878504acc263ecb70a85f2a6cf62f04038213a310660925b9c',1,'Engine']]],
-  ['down_6',['DOWN',['../namespace_engine.html#a66dcd1cf08e61de878504acc263ecb70ac4e0e4e3118472beeb2ae75827450f1f',1,'Engine']]]
+  ['distance_5',['Distance',['../class_fast_noise_lite.html#a5b30b7fbc75d02e033e9776dbea52e82a0aa6f4210bf373c95eda00232e93cd98',1,'FastNoiseLite']]],
+  ['distance2_6',['Distance2',['../class_fast_noise_lite.html#a5b30b7fbc75d02e033e9776dbea52e82a8c5245b7681dc8eee0a5082e21b3ac94',1,'FastNoiseLite']]],
+  ['distance2add_7',['Distance2Add',['../class_fast_noise_lite.html#a5b30b7fbc75d02e033e9776dbea52e82a256d7cf1ce4671f61de83c423cccf4c8',1,'FastNoiseLite']]],
+  ['distance2div_8',['Distance2Div',['../class_fast_noise_lite.html#a5b30b7fbc75d02e033e9776dbea52e82a36c73b3dd2df6672fa35c80a75d7416c',1,'FastNoiseLite']]],
+  ['distance2mul_9',['Distance2Mul',['../class_fast_noise_lite.html#a5b30b7fbc75d02e033e9776dbea52e82af9875fc3c813b193f78b3454da9b14d7',1,'FastNoiseLite']]],
+  ['distance2sub_10',['Distance2Sub',['../class_fast_noise_lite.html#a5b30b7fbc75d02e033e9776dbea52e82a79c598978149dfa355b5592c522f0e6a',1,'FastNoiseLite']]],
+  ['dollar_11',['DOLLAR',['../namespace_engine.html#a66dcd1cf08e61de878504acc263ecb70a85f2a6cf62f04038213a310660925b9c',1,'Engine']]],
+  ['domainwarpindependent_12',['DomainWarpIndependent',['../class_fast_noise_lite.html#a691456d5ac06f0b2a828b0e2d3e7f7f7a3b706dba82dfacc2aa9d0736492eb2c0',1,'FastNoiseLite']]],
+  ['domainwarpprogressive_13',['DomainWarpProgressive',['../class_fast_noise_lite.html#a691456d5ac06f0b2a828b0e2d3e7f7f7aa3dbc5f23d71f5ead793408f74730142',1,'FastNoiseLite']]],
+  ['down_14',['DOWN',['../namespace_engine.html#a66dcd1cf08e61de878504acc263ecb70ac4e0e4e3118472beeb2ae75827450f1f',1,'Engine']]],
+  ['dpad_5fdown_15',['Dpad_Down',['../namespace_engine.html#ab8b15b286f54cb7aa03fc842f5af8187aad9c06efd23aadd318f8f1119c685a3f',1,'Engine']]],
+  ['dpad_5fleft_16',['Dpad_Left',['../namespace_engine.html#ab8b15b286f54cb7aa03fc842f5af8187a76d77bd51fd3bee614807c0af59d1103',1,'Engine']]],
+  ['dpad_5fright_17',['Dpad_Right',['../namespace_engine.html#ab8b15b286f54cb7aa03fc842f5af8187a386f982df94e8fbd56a020d10b510fe1',1,'Engine']]],
+  ['dpad_5fup_18',['Dpad_Up',['../namespace_engine.html#ab8b15b286f54cb7aa03fc842f5af8187adb6696527558cf56a9e9fcfcfa189aed',1,'Engine']]]
 ];

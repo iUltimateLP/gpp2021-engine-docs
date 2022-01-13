@@ -1,12 +1,73 @@
 var annotated_dup =
 [
+    [ "Breakout", "namespace_breakout.html", [
+      [ "Ball", "class_breakout_1_1_ball.html", "class_breakout_1_1_ball" ],
+      [ "Border", "class_breakout_1_1_border.html", "class_breakout_1_1_border" ],
+      [ "Brick", "class_breakout_1_1_brick.html", "class_breakout_1_1_brick" ],
+      [ "BrickConfig", "class_breakout_1_1_brick_config.html", "class_breakout_1_1_brick_config" ],
+      [ "DirectionManipulator", "class_breakout_1_1_direction_manipulator.html", "class_breakout_1_1_direction_manipulator" ],
+      [ "GameManager", "class_breakout_1_1_game_manager.html", "class_breakout_1_1_game_manager" ],
+      [ "GameOverScreen", "class_breakout_1_1_game_over_screen.html", "class_breakout_1_1_game_over_screen" ],
+      [ "HighscoreConfig", "class_breakout_1_1_highscore_config.html", "class_breakout_1_1_highscore_config" ],
+      [ "Level", "class_breakout_1_1_level.html", "class_breakout_1_1_level" ],
+      [ "LevelConfig", "class_breakout_1_1_level_config.html", "class_breakout_1_1_level_config" ],
+      [ "LevelManager", "class_breakout_1_1_level_manager.html", "class_breakout_1_1_level_manager" ],
+      [ "LevelRecapScreen", "class_breakout_1_1_level_recap_screen.html", "class_breakout_1_1_level_recap_screen" ],
+      [ "Player", "class_breakout_1_1_player.html", "class_breakout_1_1_player" ],
+      [ "Program", "class_breakout_1_1_program.html", null ],
+      [ "StartScreen", "class_breakout_1_1_start_screen.html", "class_breakout_1_1_start_screen" ],
+      [ "WinScreen", "class_breakout_1_1_win_screen.html", "class_breakout_1_1_win_screen" ]
+    ] ],
+    [ "BulletHell", "namespace_bullet_hell.html", [
+      [ "Components", "namespace_bullet_hell_1_1_components.html", [
+        [ "Class1", "class_bullet_hell_1_1_components_1_1_class1.html", null ]
+      ] ],
+      [ "Enemies", "namespace_bullet_hell_1_1_enemies.html", [
+        [ "BossEnemy", "class_bullet_hell_1_1_enemies_1_1_boss_enemy.html", "class_bullet_hell_1_1_enemies_1_1_boss_enemy" ],
+        [ "InfinitySymbolEnemy", "class_bullet_hell_1_1_enemies_1_1_infinity_symbol_enemy.html", "class_bullet_hell_1_1_enemies_1_1_infinity_symbol_enemy" ],
+        [ "RectangleEnemy", "class_bullet_hell_1_1_enemies_1_1_rectangle_enemy.html", "class_bullet_hell_1_1_enemies_1_1_rectangle_enemy" ],
+        [ "TrapezoidEnemy", "class_bullet_hell_1_1_enemies_1_1_trapezoid_enemy.html", "class_bullet_hell_1_1_enemies_1_1_trapezoid_enemy" ],
+        [ "TriangleEnemy", "class_bullet_hell_1_1_enemies_1_1_triangle_enemy.html", "class_bullet_hell_1_1_enemies_1_1_triangle_enemy" ]
+      ] ],
+      [ "Guns", "namespace_bullet_hell_1_1_guns.html", [
+        [ "RayGun", "class_bullet_hell_1_1_guns_1_1_ray_gun.html", "class_bullet_hell_1_1_guns_1_1_ray_gun" ]
+      ] ],
+      [ "PowerUps", "namespace_bullet_hell_1_1_power_ups.html", [
+        [ "BulletStrengthPowerUp", "class_bullet_hell_1_1_power_ups_1_1_bullet_strength_power_up.html", "class_bullet_hell_1_1_power_ups_1_1_bullet_strength_power_up" ],
+        [ "Heart", "class_bullet_hell_1_1_power_ups_1_1_heart.html", "class_bullet_hell_1_1_power_ups_1_1_heart" ],
+        [ "PowerUp", "class_bullet_hell_1_1_power_ups_1_1_power_up.html", "class_bullet_hell_1_1_power_ups_1_1_power_up" ],
+        [ "ShotgunPowerUp", "class_bullet_hell_1_1_power_ups_1_1_shotgun_power_up.html", "class_bullet_hell_1_1_power_ups_1_1_shotgun_power_up" ],
+        [ "WeaponDamageUpgrade", "class_bullet_hell_1_1_power_ups_1_1_weapon_damage_upgrade.html", "class_bullet_hell_1_1_power_ups_1_1_weapon_damage_upgrade" ]
+      ] ],
+      [ "Backdrop", "class_bullet_hell_1_1_backdrop.html", "class_bullet_hell_1_1_backdrop" ],
+      [ "Border", "class_bullet_hell_1_1_border.html", "class_bullet_hell_1_1_border" ],
+      [ "Bullet", "class_bullet_hell_1_1_bullet.html", "class_bullet_hell_1_1_bullet" ],
+      [ "BulletManager", "class_bullet_hell_1_1_bullet_manager.html", "class_bullet_hell_1_1_bullet_manager" ],
+      [ "Enemy", "class_bullet_hell_1_1_enemy.html", "class_bullet_hell_1_1_enemy" ],
+      [ "EnemyManager", "class_bullet_hell_1_1_enemy_manager.html", "class_bullet_hell_1_1_enemy_manager" ],
+      [ "EnemySpawner", "class_bullet_hell_1_1_enemy_spawner.html", "class_bullet_hell_1_1_enemy_spawner" ],
+      [ "GameEndState", "class_bullet_hell_1_1_game_end_state.html", "class_bullet_hell_1_1_game_end_state" ],
+      [ "GameManager", "class_bullet_hell_1_1_game_manager.html", "class_bullet_hell_1_1_game_manager" ],
+      [ "GameState", "class_bullet_hell_1_1_game_state.html", "class_bullet_hell_1_1_game_state" ],
+      [ "MenuState", "class_bullet_hell_1_1_menu_state.html", "class_bullet_hell_1_1_menu_state" ],
+      [ "Meteor", "class_bullet_hell_1_1_meteor.html", "class_bullet_hell_1_1_meteor" ],
+      [ "Player", "class_bullet_hell_1_1_player.html", "class_bullet_hell_1_1_player" ],
+      [ "Pool", "class_bullet_hell_1_1_pool.html", "class_bullet_hell_1_1_pool" ],
+      [ "Program", "class_bullet_hell_1_1_program.html", null ],
+      [ "Shotgun", "class_bullet_hell_1_1_shotgun.html", "class_bullet_hell_1_1_shotgun" ],
+      [ "Weapon", "class_bullet_hell_1_1_weapon.html", "class_bullet_hell_1_1_weapon" ]
+    ] ],
     [ "Engine", "namespace_engine.html", [
+      [ "ActionEventArgs", "class_engine_1_1_action_event_args.html", "class_engine_1_1_action_event_args" ],
+      [ "AnimatedSprite", "class_engine_1_1_animated_sprite.html", "class_engine_1_1_animated_sprite" ],
       [ "AudioClip", "struct_engine_1_1_audio_clip.html", "struct_engine_1_1_audio_clip" ],
       [ "AudioManager", "class_engine_1_1_audio_manager.html", "class_engine_1_1_audio_manager" ],
+      [ "BatchedRendererElementInfo", "struct_engine_1_1_batched_renderer_element_info.html", "struct_engine_1_1_batched_renderer_element_info" ],
       [ "Body", "class_engine_1_1_body.html", "class_engine_1_1_body" ],
       [ "Box2DDebugDraw", "class_engine_1_1_box2_d_debug_draw.html", "class_engine_1_1_box2_d_debug_draw" ],
       [ "Cache", "class_engine_1_1_cache.html", "class_engine_1_1_cache" ],
       [ "CacheElement", "class_engine_1_1_cache_element.html", "class_engine_1_1_cache_element" ],
+      [ "Camera", "class_engine_1_1_camera.html", "class_engine_1_1_camera" ],
       [ "ConfigManager", "class_engine_1_1_config_manager.html", "class_engine_1_1_config_manager" ],
       [ "ConfigObject", "class_engine_1_1_config_object.html", "class_engine_1_1_config_object" ],
       [ "ContactEvent", "struct_engine_1_1_contact_event.html", "struct_engine_1_1_contact_event" ],
@@ -18,22 +79,43 @@ var annotated_dup =
       [ "FontFile", "struct_engine_1_1_font_file.html", "struct_engine_1_1_font_file" ],
       [ "FontManager", "class_engine_1_1_font_manager.html", "class_engine_1_1_font_manager" ],
       [ "GameObject", "class_engine_1_1_game_object.html", "class_engine_1_1_game_object" ],
+      [ "GamepadMapping", "class_engine_1_1_gamepad_mapping.html", "class_engine_1_1_gamepad_mapping" ],
+      [ "GamepadsConfig", "class_engine_1_1_gamepads_config.html", "class_engine_1_1_gamepads_config" ],
+      [ "GameStateManager", "class_engine_1_1_game_state_manager.html", "class_engine_1_1_game_state_manager" ],
+      [ "IGameState", "interface_engine_1_1_i_game_state.html", "interface_engine_1_1_i_game_state" ],
+      [ "InputAction", "class_engine_1_1_input_action.html", "class_engine_1_1_input_action" ],
       [ "InputManager", "class_engine_1_1_input_manager.html", "class_engine_1_1_input_manager" ],
+      [ "InputMappingConfig", "class_engine_1_1_input_mapping_config.html", "class_engine_1_1_input_mapping_config" ],
       [ "KeyEventArgs", "class_engine_1_1_key_event_args.html", "class_engine_1_1_key_event_args" ],
       [ "Logger", "class_engine_1_1_logger.html", null ],
+      [ "MathUtils", "class_engine_1_1_math_utils.html", null ],
       [ "MouseEventArgs", "class_engine_1_1_mouse_event_args.html", "class_engine_1_1_mouse_event_args" ],
       [ "MouseMoveEventArgs", "class_engine_1_1_mouse_move_event_args.html", "class_engine_1_1_mouse_move_event_args" ],
+      [ "MouseWheelEventArgs", "class_engine_1_1_mouse_wheel_event_args.html", "class_engine_1_1_mouse_wheel_event_args" ],
       [ "PhysicsEntity", "class_engine_1_1_physics_entity.html", "class_engine_1_1_physics_entity" ],
       [ "PhysicsManager", "class_engine_1_1_physics_manager.html", "class_engine_1_1_physics_manager" ],
       [ "RendererManager", "class_engine_1_1_renderer_manager.html", "class_engine_1_1_renderer_manager" ],
+      [ "ResolutionChangedEventArgs", "class_engine_1_1_resolution_changed_event_args.html", "class_engine_1_1_resolution_changed_event_args" ],
       [ "ResourceManager", "class_engine_1_1_resource_manager.html", null ],
       [ "Sprite", "class_engine_1_1_sprite.html", "class_engine_1_1_sprite" ],
       [ "SpriteCacheElement", "class_engine_1_1_sprite_cache_element.html", "class_engine_1_1_sprite_cache_element" ],
+      [ "SpritesheetInfo", "struct_engine_1_1_spritesheet_info.html", "struct_engine_1_1_spritesheet_info" ],
       [ "TextElement", "class_engine_1_1_text_element.html", "class_engine_1_1_text_element" ],
+      [ "Timer", "class_engine_1_1_timer.html", "class_engine_1_1_timer" ],
       [ "UIButton", "class_engine_1_1_u_i_button.html", "class_engine_1_1_u_i_button" ],
       [ "UIElement", "class_engine_1_1_u_i_element.html", "class_engine_1_1_u_i_element" ],
       [ "UIManager", "class_engine_1_1_u_i_manager.html", "class_engine_1_1_u_i_manager" ],
+      [ "UISprite", "class_engine_1_1_u_i_sprite.html", "class_engine_1_1_u_i_sprite" ],
+      [ "UIText", "class_engine_1_1_u_i_text.html", "class_engine_1_1_u_i_text" ],
       [ "Utils", "class_engine_1_1_utils.html", null ],
       [ "WindowManager", "class_engine_1_1_window_manager.html", "class_engine_1_1_window_manager" ]
-    ] ]
+    ] ],
+    [ "Test", "namespace_test.html", [
+      [ "GroundBody", "class_test_1_1_ground_body.html", "class_test_1_1_ground_body" ],
+      [ "MyObject", "class_test_1_1_my_object.html", "class_test_1_1_my_object" ],
+      [ "Program", "class_test_1_1_program.html", null ],
+      [ "TestConfig", "class_test_1_1_test_config.html", "class_test_1_1_test_config" ],
+      [ "WrapModeTestObject", "class_test_1_1_wrap_mode_test_object.html", "class_test_1_1_wrap_mode_test_object" ]
+    ] ],
+    [ "FastNoiseLite", "class_fast_noise_lite.html", "class_fast_noise_lite" ]
 ];

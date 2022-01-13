@@ -1,14 +1,27 @@
 var hierarchy =
 [
+    [ "Engine.InputAction.ActionMapping", "struct_engine_1_1_input_action_1_1_action_mapping.html", null ],
     [ "Engine.AudioClip", "struct_engine_1_1_audio_clip.html", null ],
     [ "Engine.AudioManager", "class_engine_1_1_audio_manager.html", null ],
+    [ "Engine.GamepadMapping.AxisMapping", "struct_engine_1_1_gamepad_mapping_1_1_axis_mapping.html", null ],
+    [ "Engine.BatchedRendererElementInfo", "struct_engine_1_1_batched_renderer_element_info.html", null ],
     [ "Engine.Body", "class_engine_1_1_body.html", null ],
+    [ "BulletHell.BulletManager", "class_bullet_hell_1_1_bullet_manager.html", null ],
     [ "Engine.Cache< ElementType >", "class_engine_1_1_cache.html", null ],
     [ "Engine.CacheElement", "class_engine_1_1_cache_element.html", [
       [ "Engine.SpriteCacheElement", "class_engine_1_1_sprite_cache_element.html", null ]
     ] ],
+    [ "Engine.Camera", "class_engine_1_1_camera.html", null ],
+    [ "BulletHell.Components.Class1", "class_bullet_hell_1_1_components_1_1_class1.html", null ],
     [ "Engine.ConfigManager", "class_engine_1_1_config_manager.html", null ],
-    [ "Engine.ConfigObject", "class_engine_1_1_config_object.html", null ],
+    [ "Engine.ConfigObject", "class_engine_1_1_config_object.html", [
+      [ "Breakout.BrickConfig", "class_breakout_1_1_brick_config.html", null ],
+      [ "Breakout.HighscoreConfig", "class_breakout_1_1_highscore_config.html", null ],
+      [ "Breakout.LevelConfig", "class_breakout_1_1_level_config.html", null ],
+      [ "Engine.GamepadsConfig", "class_engine_1_1_gamepads_config.html", null ],
+      [ "Engine.InputMappingConfig", "class_engine_1_1_input_mapping_config.html", null ],
+      [ "Test.TestConfig", "class_test_1_1_test_config.html", null ]
+    ] ],
     [ "Engine.ContactEvent", "struct_engine_1_1_contact_event.html", null ],
     [ "Dynamics.ContactListener", null, [
       [ "Engine.ContactListener", "class_engine_1_1_contact_listener.html", null ]
@@ -17,24 +30,76 @@ var hierarchy =
       [ "Engine.Box2DDebugDraw", "class_engine_1_1_box2_d_debug_draw.html", null ]
     ] ],
     [ "Engine.DebugDraw", "class_engine_1_1_debug_draw.html", null ],
+    [ "BulletHell.EnemyManager", "class_bullet_hell_1_1_enemy_manager.html", null ],
     [ "Engine.EngineApp", "class_engine_1_1_engine_app.html", null ],
     [ "Engine.EngineMain", "class_engine_1_1_engine_main.html", null ],
     [ "EventArgs", null, [
+      [ "Engine.ActionEventArgs", "class_engine_1_1_action_event_args.html", null ],
       [ "Engine.KeyEventArgs", "class_engine_1_1_key_event_args.html", null ],
       [ "Engine.MouseEventArgs", "class_engine_1_1_mouse_event_args.html", null ],
-      [ "Engine.MouseMoveEventArgs", "class_engine_1_1_mouse_move_event_args.html", null ]
+      [ "Engine.MouseMoveEventArgs", "class_engine_1_1_mouse_move_event_args.html", null ],
+      [ "Engine.MouseWheelEventArgs", "class_engine_1_1_mouse_wheel_event_args.html", null ],
+      [ "Engine.ResolutionChangedEventArgs", "class_engine_1_1_resolution_changed_event_args.html", null ]
     ] ],
+    [ "FastNoiseLite", "class_fast_noise_lite.html", null ],
     [ "Engine.FontFile", "struct_engine_1_1_font_file.html", null ],
     [ "Engine.FontManager", "class_engine_1_1_font_manager.html", null ],
+    [ "Breakout.GameManager", "class_breakout_1_1_game_manager.html", null ],
+    [ "BulletHell.GameManager", "class_bullet_hell_1_1_game_manager.html", null ],
     [ "Engine.GameObject", "class_engine_1_1_game_object.html", [
+      [ "Breakout.Level", "class_breakout_1_1_level.html", null ],
+      [ "BulletHell.Pool", "class_bullet_hell_1_1_pool.html", null ],
       [ "Engine.Entity", "class_engine_1_1_entity.html", [
-        [ "Engine.PhysicsEntity", "class_engine_1_1_physics_entity.html", null ],
+        [ "BulletHell.EnemySpawner", "class_bullet_hell_1_1_enemy_spawner.html", null ],
+        [ "BulletHell.Weapon", "class_bullet_hell_1_1_weapon.html", [
+          [ "BulletHell.Guns.RayGun", "class_bullet_hell_1_1_guns_1_1_ray_gun.html", null ],
+          [ "BulletHell.Shotgun", "class_bullet_hell_1_1_shotgun.html", null ]
+        ] ],
+        [ "Engine.AnimatedSprite", "class_engine_1_1_animated_sprite.html", null ],
+        [ "Engine.PhysicsEntity", "class_engine_1_1_physics_entity.html", [
+          [ "Breakout.Ball", "class_breakout_1_1_ball.html", null ],
+          [ "Breakout.Border", "class_breakout_1_1_border.html", null ],
+          [ "Breakout.Brick", "class_breakout_1_1_brick.html", null ],
+          [ "Breakout.DirectionManipulator", "class_breakout_1_1_direction_manipulator.html", null ],
+          [ "Breakout.Player", "class_breakout_1_1_player.html", null ],
+          [ "BulletHell.Backdrop", "class_bullet_hell_1_1_backdrop.html", null ],
+          [ "BulletHell.Border", "class_bullet_hell_1_1_border.html", null ],
+          [ "BulletHell.Bullet", "class_bullet_hell_1_1_bullet.html", null ],
+          [ "BulletHell.Enemy", "class_bullet_hell_1_1_enemy.html", [
+            [ "BulletHell.Enemies.BossEnemy", "class_bullet_hell_1_1_enemies_1_1_boss_enemy.html", null ],
+            [ "BulletHell.Enemies.InfinitySymbolEnemy", "class_bullet_hell_1_1_enemies_1_1_infinity_symbol_enemy.html", null ],
+            [ "BulletHell.Enemies.RectangleEnemy", "class_bullet_hell_1_1_enemies_1_1_rectangle_enemy.html", null ],
+            [ "BulletHell.Enemies.TrapezoidEnemy", "class_bullet_hell_1_1_enemies_1_1_trapezoid_enemy.html", null ],
+            [ "BulletHell.Enemies.TriangleEnemy", "class_bullet_hell_1_1_enemies_1_1_triangle_enemy.html", null ]
+          ] ],
+          [ "BulletHell.Meteor", "class_bullet_hell_1_1_meteor.html", null ],
+          [ "BulletHell.Player", "class_bullet_hell_1_1_player.html", null ],
+          [ "BulletHell.PowerUps.PowerUp", "class_bullet_hell_1_1_power_ups_1_1_power_up.html", [
+            [ "BulletHell.PowerUps.BulletStrengthPowerUp", "class_bullet_hell_1_1_power_ups_1_1_bullet_strength_power_up.html", null ],
+            [ "BulletHell.PowerUps.Heart", "class_bullet_hell_1_1_power_ups_1_1_heart.html", null ],
+            [ "BulletHell.PowerUps.ShotgunPowerUp", "class_bullet_hell_1_1_power_ups_1_1_shotgun_power_up.html", null ],
+            [ "BulletHell.PowerUps.WeaponDamageUpgrade", "class_bullet_hell_1_1_power_ups_1_1_weapon_damage_upgrade.html", null ]
+          ] ],
+          [ "Test.GroundBody", "class_test_1_1_ground_body.html", null ],
+          [ "Test.MyObject", "class_test_1_1_my_object.html", null ]
+        ] ],
         [ "Engine.Sprite", "class_engine_1_1_sprite.html", null ],
-        [ "Engine.TextElement", "class_engine_1_1_text_element.html", null ]
+        [ "Engine.TextElement", "class_engine_1_1_text_element.html", null ],
+        [ "Test.WrapModeTestObject", "class_test_1_1_wrap_mode_test_object.html", null ]
       ] ]
     ] ],
+    [ "Breakout.GameOverScreen", "class_breakout_1_1_game_over_screen.html", null ],
+    [ "Engine.GamepadMapping", "class_engine_1_1_gamepad_mapping.html", null ],
+    [ "Engine.GameStateManager", "class_engine_1_1_game_state_manager.html", null ],
+    [ "Engine.IGameState", "interface_engine_1_1_i_game_state.html", [
+      [ "BulletHell.GameEndState", "class_bullet_hell_1_1_game_end_state.html", null ],
+      [ "BulletHell.GameState", "class_bullet_hell_1_1_game_state.html", null ],
+      [ "BulletHell.MenuState", "class_bullet_hell_1_1_menu_state.html", null ]
+    ] ],
     [ "SDL2.SDL_image.IMG_Animation", "struct_s_d_l2_1_1_s_d_l__image_1_1_i_m_g___animation.html", null ],
+    [ "Engine.InputAction", "class_engine_1_1_input_action.html", null ],
     [ "Engine.InputManager", "class_engine_1_1_input_manager.html", null ],
+    [ "Engine.InputAction.ActionMapping.InputModifiers", "struct_engine_1_1_input_action_1_1_action_mapping_1_1_input_modifiers.html", null ],
     [ "SDL2.SDL.INTERNAL_android_wminfo", "struct_s_d_l2_1_1_s_d_l_1_1_i_n_t_e_r_n_a_l__android__wminfo.html", null ],
     [ "SDL2.SDL.INTERNAL_cocoa_wminfo", "struct_s_d_l2_1_1_s_d_l_1_1_i_n_t_e_r_n_a_l__cocoa__wminfo.html", null ],
     [ "SDL2.SDL.INTERNAL_directfb_wminfo", "struct_s_d_l2_1_1_s_d_l_1_1_i_n_t_e_r_n_a_l__directfb__wminfo.html", null ],
@@ -50,9 +115,15 @@ var hierarchy =
     [ "SDL2.SDL.INTERNAL_windows_wminfo", "struct_s_d_l2_1_1_s_d_l_1_1_i_n_t_e_r_n_a_l__windows__wminfo.html", null ],
     [ "SDL2.SDL.INTERNAL_winrt_wminfo", "struct_s_d_l2_1_1_s_d_l_1_1_i_n_t_e_r_n_a_l__winrt__wminfo.html", null ],
     [ "SDL2.SDL.INTERNAL_x11_wminfo", "struct_s_d_l2_1_1_s_d_l_1_1_i_n_t_e_r_n_a_l__x11__wminfo.html", null ],
+    [ "Breakout.LevelManager", "class_breakout_1_1_level_manager.html", null ],
+    [ "Breakout.LevelRecapScreen", "class_breakout_1_1_level_recap_screen.html", null ],
     [ "Engine.Logger", "class_engine_1_1_logger.html", null ],
+    [ "Engine.MathUtils", "class_engine_1_1_math_utils.html", null ],
     [ "SDL2.SDL_mixer.MIX_Chunk", "struct_s_d_l2_1_1_s_d_l__mixer_1_1_m_i_x___chunk.html", null ],
     [ "Engine.PhysicsManager", "class_engine_1_1_physics_manager.html", null ],
+    [ "Breakout.Program", "class_breakout_1_1_program.html", null ],
+    [ "BulletHell.Program", "class_bullet_hell_1_1_program.html", null ],
+    [ "Test.Program", "class_test_1_1_program.html", null ],
     [ "Engine.RendererManager", "class_engine_1_1_renderer_manager.html", null ],
     [ "Engine.ResourceManager", "class_engine_1_1_resource_manager.html", null ],
     [ "SDL2.SDL.SDL_AudioDeviceEvent", "struct_s_d_l2_1_1_s_d_l_1_1_s_d_l___audio_device_event.html", null ],
@@ -114,10 +185,16 @@ var hierarchy =
     [ "SDL2.SDL.SDL_UserEvent", "struct_s_d_l2_1_1_s_d_l_1_1_s_d_l___user_event.html", null ],
     [ "SDL2.SDL.SDL_version", "struct_s_d_l2_1_1_s_d_l_1_1_s_d_l__version.html", null ],
     [ "SDL2.SDL.SDL_WindowEvent", "struct_s_d_l2_1_1_s_d_l_1_1_s_d_l___window_event.html", null ],
+    [ "Engine.SpritesheetInfo", "struct_engine_1_1_spritesheet_info.html", null ],
+    [ "Breakout.StartScreen", "class_breakout_1_1_start_screen.html", null ],
+    [ "Engine.Timer", "class_engine_1_1_timer.html", null ],
     [ "Engine.UIElement", "class_engine_1_1_u_i_element.html", [
-      [ "Engine.UIButton", "class_engine_1_1_u_i_button.html", null ]
+      [ "Engine.UIButton", "class_engine_1_1_u_i_button.html", null ],
+      [ "Engine.UISprite", "class_engine_1_1_u_i_sprite.html", null ],
+      [ "Engine.UIText", "class_engine_1_1_u_i_text.html", null ]
     ] ],
     [ "Engine.UIManager", "class_engine_1_1_u_i_manager.html", null ],
     [ "Engine.Utils", "class_engine_1_1_utils.html", null ],
-    [ "Engine.WindowManager", "class_engine_1_1_window_manager.html", null ]
+    [ "Engine.WindowManager", "class_engine_1_1_window_manager.html", null ],
+    [ "Breakout.WinScreen", "class_breakout_1_1_win_screen.html", null ]
 ];

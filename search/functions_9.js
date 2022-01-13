@@ -1,7 +1,5 @@
 var searchData=
 [
-  ['loadconfigfile_3c_20t_20_3e_0',['LoadConfigFile&lt; T &gt;',['../class_engine_1_1_config_manager.html#aaf74517e36e1ae313a6d8bd9e7f36055',1,'Engine::ConfigManager']]],
-  ['loadfont_1',['LoadFont',['../class_engine_1_1_font_manager.html#ac8b5b1925c07a000d16218af9268be4d',1,'Engine::FontManager']]],
-  ['log_2',['Log',['../class_engine_1_1_logger.html#a42ade251297e5f740c151d536d9521e9',1,'Engine::Logger']]],
-  ['lookup_3',['LookUp',['../class_engine_1_1_cache.html#a343446a383c1125c12c5bfbe7dbdeebd',1,'Engine::Cache']]]
+  ['keyeventargs_0',['KeyEventArgs',['../class_engine_1_1_key_event_args.html#a755572e835b6618b98b9a7a5810cc04f',1,'Engine::KeyEventArgs']]],
+  ['killenemy_1',['killEnemy',['../class_bullet_hell_1_1_enemy.html#a20643872fd227d3540342c2bb73c725c',1,'BulletHell.Enemy.killEnemy()'],['../class_bullet_hell_1_1_enemy_manager.html#a4130e3ffca3a348bf820304b1e14b657',1,'BulletHell.EnemyManager.killEnemy()']]]
 ];

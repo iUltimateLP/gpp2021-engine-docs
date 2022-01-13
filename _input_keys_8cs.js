@@ -1,5 +1,23 @@
 var _input_keys_8cs =
 [
+    [ "GamepadButton", "_input_keys_8cs.html#ab8b15b286f54cb7aa03fc842f5af8187", [
+      [ "A", "_input_keys_8cs.html#ab8b15b286f54cb7aa03fc842f5af8187a7fc56270e7a70fa81a5935b72eacbe29", null ],
+      [ "B", "_input_keys_8cs.html#ab8b15b286f54cb7aa03fc842f5af8187a9d5ed678fe57bcca610140957afab571", null ],
+      [ "X", "_input_keys_8cs.html#ab8b15b286f54cb7aa03fc842f5af8187a02129bb861061d1a052c592e2dc6b383", null ],
+      [ "Y", "_input_keys_8cs.html#ab8b15b286f54cb7aa03fc842f5af8187a57cec4137b614c87cb4e24a3d003a3e0", null ],
+      [ "Minus", "_input_keys_8cs.html#ab8b15b286f54cb7aa03fc842f5af8187a453fb623e752c5993f65bc410fd74fe5", null ],
+      [ "Home", "_input_keys_8cs.html#ab8b15b286f54cb7aa03fc842f5af8187a8cf04a9734132302f96da8e113e80ce5", null ],
+      [ "Plus", "_input_keys_8cs.html#ab8b15b286f54cb7aa03fc842f5af8187a32ba78fe43257d3e7f88e3935a8ea0d4", null ],
+      [ "LeftJoystick", "_input_keys_8cs.html#ab8b15b286f54cb7aa03fc842f5af8187acffb4678bfceb78fff11578d2b77ca3e", null ],
+      [ "RightJoystick", "_input_keys_8cs.html#ab8b15b286f54cb7aa03fc842f5af8187a94e919e9ac914e3d3197813af06b8859", null ],
+      [ "LeftTrigger", "_input_keys_8cs.html#ab8b15b286f54cb7aa03fc842f5af8187ac412c6d19da2afaf2dc8891f5bcb8901", null ],
+      [ "RightTrigger", "_input_keys_8cs.html#ab8b15b286f54cb7aa03fc842f5af8187a837ed99a897594cef0d37403a18f0df0", null ],
+      [ "Dpad_Up", "_input_keys_8cs.html#ab8b15b286f54cb7aa03fc842f5af8187adb6696527558cf56a9e9fcfcfa189aed", null ],
+      [ "Dpad_Down", "_input_keys_8cs.html#ab8b15b286f54cb7aa03fc842f5af8187aad9c06efd23aadd318f8f1119c685a3f", null ],
+      [ "Dpad_Left", "_input_keys_8cs.html#ab8b15b286f54cb7aa03fc842f5af8187a76d77bd51fd3bee614807c0af59d1103", null ],
+      [ "Dpad_Right", "_input_keys_8cs.html#ab8b15b286f54cb7aa03fc842f5af8187a386f982df94e8fbd56a020d10b510fe1", null ],
+      [ "Screenshot", "_input_keys_8cs.html#ab8b15b286f54cb7aa03fc842f5af8187a3afbd9828e011526955ca93b48b57524", null ]
+    ] ],
     [ "KeyCode", "_input_keys_8cs.html#a66dcd1cf08e61de878504acc263ecb70", [
       [ "UNKNOWN", "_input_keys_8cs.html#a66dcd1cf08e61de878504acc263ecb70a696b031073e74bf2cb98e5ef201d4aa3", null ],
       [ "BACKSPACE", "_input_keys_8cs.html#a66dcd1cf08e61de878504acc263ecb70a6f5d8e41084b4d3d47fa621c459eede1", null ],
