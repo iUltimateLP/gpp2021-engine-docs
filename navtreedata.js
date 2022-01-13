@@ -24,44 +24,12 @@
 */
 var NAVTREE =
 [
-  [ "WiiNotFit-Engine", "index.html", [
-    [ "Packages", "namespaces.html", [
-      [ "Packages", "namespaces.html", "namespaces_dup" ],
-      [ "Package Functions", "namespacemembers.html", [
-        [ "All", "namespacemembers.html", null ],
-        [ "Enumerations", "namespacemembers_enum.html", null ]
-      ] ]
-    ] ],
-    [ "Classes", "annotated.html", [
-      [ "Class List", "annotated.html", "annotated_dup" ],
-      [ "Class Index", "classes.html", null ],
-      [ "Class Hierarchy", "hierarchy.html", "hierarchy" ],
-      [ "Class Members", "functions.html", [
-        [ "All", "functions.html", "functions_dup" ],
-        [ "Functions", "functions_func.html", null ],
-        [ "Variables", "functions_vars.html", "functions_vars" ],
-        [ "Enumerations", "functions_enum.html", null ],
-        [ "Properties", "functions_prop.html", null ],
-        [ "Events", "functions_evnt.html", null ]
-      ] ]
-    ] ],
-    [ "Files", "files.html", [
-      [ "File List", "files.html", "files_dup" ],
-      [ "File Members", "globals.html", [
-        [ "All", "globals.html", null ],
-        [ "Typedefs", "globals_type.html", null ]
-      ] ]
-    ] ]
-  ] ]
+  [ "WiiNotFit-Engine", "index.html", ]
 ];
 
 var NAVTREEINDEX =
 [
-"_audio_manager_8cs.html",
-"_input_keys_8cs.html#a66dcd1cf08e61de878504acc263ecb70afa868488740aa25870ced6b9169951fb",
-"class_engine_1_1_game_object.html#ae5a4518de133bd8d87e0ad6e654d377d",
-"functions_enum.html",
-"namespace_engine.html#a66dcd1cf08e61de878504acc263ecb70abaaceccc27b1d4e0968c999583f97de5"
+"index.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
