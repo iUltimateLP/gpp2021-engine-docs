@@ -1,5 +1,8 @@
 var dir_1956772d995ba5be51ae3d4e74e7b098 =
 [
+    [ "UIAnimatedSprite.cs", "_u_i_animated_sprite_8cs.html", [
+      [ "Engine.UIAnimatedSprite", "class_engine_1_1_u_i_animated_sprite.html", "class_engine_1_1_u_i_animated_sprite" ]
+    ] ],
     [ "UIButton.cs", "_u_i_button_8cs.html", [
       [ "Engine.UIButton", "class_engine_1_1_u_i_button.html", "class_engine_1_1_u_i_button" ]
     ] ],

@@ -3,8 +3,9 @@ var class_engine_1_1_body =
     [ "AddImpulse", "class_engine_1_1_body.html#a7151f370b5f9e4e4c088d7a1e6f2a06c", null ],
     [ "AddImpulse", "class_engine_1_1_body.html#a2dc4a921766b51c9c3722a08f3a9a2f0", null ],
     [ "Destroy", "class_engine_1_1_body.html#a56671e321eab75677793e660a0ac0412", null ],
+    [ "SetMaxVelocity", "class_engine_1_1_body.html#a3b8619ebec895c36dda3e4fd17983e9f", null ],
     [ "SetTransform", "class_engine_1_1_body.html#a1211143adf5cd7c840ceaca711593da0", null ],
-    [ "Update", "class_engine_1_1_body.html#ad450c5de6d5eb86768438b93caa7901d", null ],
+    [ "Update", "class_engine_1_1_body.html#ae552f5bc18e47995dc62cbe50dc75150", null ],
     [ "CollisionCategoryBits", "class_engine_1_1_body.html#ac38f07c543aa39482208e551e87e4b5a", null ],
     [ "CollisionGroupIndex", "class_engine_1_1_body.html#acb64ae1d11ac16180de851c783d0e922", null ],
     [ "CollisionMaskBits", "class_engine_1_1_body.html#a07dd421a10c3f276bf78ce861d8280ae", null ],
@@ -22,6 +23,7 @@ var class_engine_1_1_body =
     [ "IsBullet", "class_engine_1_1_body.html#a0c053733227bb763d617d96b9c898963", null ],
     [ "IsSensor", "class_engine_1_1_body.html#aed586671fdc4bada5387409320084355", null ],
     [ "Location", "class_engine_1_1_body.html#aa57b1837e00b4a37d588871ad429475b", null ],
+    [ "Mass", "class_engine_1_1_body.html#ae3574226c0ffc69d4c59de399da8b67c", null ],
     [ "Restitution", "class_engine_1_1_body.html#a75ef511b68689adddfc4f6328ecea21b", null ],
     [ "Velocity", "class_engine_1_1_body.html#a66c7346ee67ac0dc3358b305f0743164", null ]
 ];

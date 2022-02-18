@@ -10,6 +10,7 @@ var class_engine_1_1_camera =
     [ "StopFocus", "class_engine_1_1_camera.html#a9046dd547816c3ab5f6fe123e02e9f1d", null ],
     [ "Tick", "class_engine_1_1_camera.html#a392e9f7fc2fafcd818d30dfcca0e6647", null ],
     [ "WorldToScreen", "class_engine_1_1_camera.html#aae7446c7d38c97c935b14e76446c90d5", null ],
+    [ "ClampToWorldBounds", "class_engine_1_1_camera.html#a3aacc2ced48104cf6c9b90ad9e2a6973", null ],
     [ "InterpSpeed", "class_engine_1_1_camera.html#a64e4928a09ca82597dc2583294cb93e8", null ],
     [ "Location", "class_engine_1_1_camera.html#ae1c0e1486b4974796eb311af530324d6", null ],
     [ "ShakeDecay", "class_engine_1_1_camera.html#ac3b98b4dc447712e251d2dd17e180ddc", null ],

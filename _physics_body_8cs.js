@@ -12,6 +12,7 @@ var _physics_body_8cs =
     ] ],
     [ "ShapeType", "_physics_body_8cs.html#af8076fed8b29cac3cbf09070b5e0a53f", [
       [ "Box", "_physics_body_8cs.html#af8076fed8b29cac3cbf09070b5e0a53fa3cfce651e667ab85486dd42a8185f98a", null ],
-      [ "Circle", "_physics_body_8cs.html#af8076fed8b29cac3cbf09070b5e0a53fa30954d90085f6eaaf5817917fc5fecb3", null ]
+      [ "Circle", "_physics_body_8cs.html#af8076fed8b29cac3cbf09070b5e0a53fa30954d90085f6eaaf5817917fc5fecb3", null ],
+      [ "Polygon", "_physics_body_8cs.html#af8076fed8b29cac3cbf09070b5e0a53fa4c0a11247d92f73fb84baa51e37a3263", null ]
     ] ]
 ];

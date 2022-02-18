@@ -25,15 +25,6 @@
 var NAVTREE =
 [
   [ "WiiNotFit-Engine", "index.html", [
-    [ "LICENSE", "md_packages__newtonsoft__json_13_0_1__l_i_c_e_n_s_e.html", null ],
-    [ "GPP2021 - Team Wii Not Fit", "md__r_e_a_d_m_e.html", [
-      [ "Contributors", "md__r_e_a_d_m_e.html#autotoc_md1", null ],
-      [ "Engine Documentation", "md__r_e_a_d_m_e.html#autotoc_md2", null ],
-      [ "Structure", "md__r_e_a_d_m_e.html#autotoc_md3", null ],
-      [ "Code Style", "md__r_e_a_d_m_e.html#autotoc_md4", null ],
-      [ "SDL2.dll dependency", "md__r_e_a_d_m_e.html#autotoc_md5", null ],
-      [ "Credits", "md__r_e_a_d_m_e.html#autotoc_md6", null ]
-    ] ],
     [ "Packages", "namespaces.html", [
       [ "Packages", "namespaces.html", "namespaces_dup" ],
       [ "Package Functions", "namespacemembers.html", [
@@ -67,15 +58,14 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "_animated_sprite_8cs.html",
-"_input_keys_8cs.html#a66dcd1cf08e61de878504acc263ecb70add2aa76531803648f376c354cb6767d0",
-"class_breakout_1_1_game_manager.html#abe623204577d3744182898db9a5244cf",
-"class_bullet_hell_1_1_enemy_manager.html#a0056c46ea11b81ca6c15b9711aef3dea",
-"class_engine_1_1_audio_manager.html#a2db8328d5062b2e794d954a1d75bac72",
-"class_engine_1_1_input_action.html#a85630078af0238acbbc62bc94f259085",
-"class_engine_1_1_text_element.html#afd5c9591ad4f341594b56fd5c812a1e1",
-"class_test_1_1_my_object.html#ac0a7cbc3dbe775ed24c80891f4bf0281",
-"namespace_engine.html#a66dcd1cf08e61de878504acc263ecb70a5415e9052565ecaf84f33d7f20996fd9",
-"struct_engine_1_1_contact_event.html#ac5241b561292f6bccd569bae49bac11b"
+"_input_keys_8cs.html#a66dcd1cf08e61de878504acc263ecb70ae7d5bbd8e7adc41422a2841c3f3ee833",
+"class_engine_1_1_body.html#a56671e321eab75677793e660a0ac0412",
+"class_engine_1_1_gamepads_config.html#a8e581922ddc249a4a7d1a2e22c1918de",
+"class_engine_1_1_sprite_cache_element.html#aad770ae5bfeee1f6e79a17305782ecab",
+"class_engine_1_1_u_i_text.html",
+"class_tiled_c_s_1_1_tiled_object.html#a6d69375ea941d590739930907b391173",
+"namespace_engine.html#a66dcd1cf08e61de878504acc263ecb70a0910adb3f9efe0f7414a295e99852e72",
+"namespace_engine.html#ab8b15b286f54cb7aa03fc842f5af8187a02129bb861061d1a052c592e2dc6b383"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

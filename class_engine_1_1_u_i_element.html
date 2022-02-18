@@ -100,9 +100,10 @@ Inheritance diagram for Engine.UIElement:</div>
  <div class="center">
   <img src="class_engine_1_1_u_i_element.png" usemap="#Engine.UIElement_map" alt=""/>
   <map id="Engine.UIElement_map" name="Engine.UIElement_map">
-<area href="class_engine_1_1_u_i_button.html" title="A simple button" alt="Engine.UIButton" shape="rect" coords="0,56,110,80"/>
-<area href="class_engine_1_1_u_i_sprite.html" title="Sprites are the most basic visual component. They&#39;re rendering a specific portion of an image resourc..." alt="Engine.UISprite" shape="rect" coords="120,56,230,80"/>
-<area href="class_engine_1_1_u_i_text.html" title="A simple UI text element" alt="Engine.UIText" shape="rect" coords="240,56,350,80"/>
+<area href="class_engine_1_1_u_i_animated_sprite.html" title="Sprites are the most basic visual component. They&#39;re rendering a specific portion of an image resourc..." alt="Engine.UIAnimatedSprite" shape="rect" coords="0,56,151,80"/>
+<area href="class_engine_1_1_u_i_button.html" title="A simple button" alt="Engine.UIButton" shape="rect" coords="161,56,312,80"/>
+<area href="class_engine_1_1_u_i_sprite.html" title="Sprites are the most basic visual component. They&#39;re rendering a specific portion of an image resourc..." alt="Engine.UISprite" shape="rect" coords="322,56,473,80"/>
+<area href="class_engine_1_1_u_i_text.html" title="A simple UI text element" alt="Engine.UIText" shape="rect" coords="483,56,634,80"/>
   </map>
 </div></div>
 <table class="memberdecls">
@@ -111,9 +112,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ab665d3a6d87573ac48eac5231a4e35d9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_engine_1_1_u_i_element.html#ab665d3a6d87573ac48eac5231a4e35d9">UIElement</a> (string <a class="el" href="class_engine_1_1_u_i_element.html#ab8c493fabfd229adfc4d10d45dcf3bcc">Name</a>, object Owner)</td></tr>
 <tr class="memdesc:ab665d3a6d87573ac48eac5231a4e35d9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor that adds the element to the UI manager's elements automatically  <a href="class_engine_1_1_u_i_element.html#ab665d3a6d87573ac48eac5231a4e35d9">More...</a><br /></td></tr>
 <tr class="separator:ab665d3a6d87573ac48eac5231a4e35d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a75936ba1b281eadc9c4ea499ecfea2dd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_engine_1_1_u_i_element.html#a75936ba1b281eadc9c4ea499ecfea2dd">Destroy</a> ()</td></tr>
-<tr class="memdesc:a75936ba1b281eadc9c4ea499ecfea2dd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys this ui element  <a href="class_engine_1_1_u_i_element.html#a75936ba1b281eadc9c4ea499ecfea2dd">More...</a><br /></td></tr>
-<tr class="separator:a75936ba1b281eadc9c4ea499ecfea2dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acdd46b050a3543e2f960b7589c3a5f5e"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_engine_1_1_u_i_element.html#acdd46b050a3543e2f960b7589c3a5f5e">Destroy</a> ()</td></tr>
+<tr class="memdesc:acdd46b050a3543e2f960b7589c3a5f5e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys this ui element  <a href="class_engine_1_1_u_i_element.html#acdd46b050a3543e2f960b7589c3a5f5e">More...</a><br /></td></tr>
+<tr class="separator:acdd46b050a3543e2f960b7589c3a5f5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a882871c40da620f85384fa10b33d4fc8"><td class="memItemLeft" align="right" valign="top">virtual Rectangle&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_engine_1_1_u_i_element.html#a882871c40da620f85384fa10b33d4fc8">GetRect</a> ()</td></tr>
 <tr class="memdesc:a882871c40da620f85384fa10b33d4fc8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the rectangle in screen coordinates for this UI element. Used for hit testing  <a href="class_engine_1_1_u_i_element.html#a882871c40da620f85384fa10b33d4fc8">More...</a><br /></td></tr>
 <tr class="separator:a882871c40da620f85384fa10b33d4fc8"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -206,22 +207,32 @@ Properties</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a75936ba1b281eadc9c4ea499ecfea2dd" name="a75936ba1b281eadc9c4ea499ecfea2dd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a75936ba1b281eadc9c4ea499ecfea2dd">&#9670;&nbsp;</a></span>Destroy()</h2>
+<a id="acdd46b050a3543e2f960b7589c3a5f5e" name="acdd46b050a3543e2f960b7589c3a5f5e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acdd46b050a3543e2f960b7589c3a5f5e">&#9670;&nbsp;</a></span>Destroy()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void Engine.UIElement.Destroy </td>
+          <td class="memname">virtual void Engine.UIElement.Destroy </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>Destroys this ui element </p>
+
+<p>Reimplemented in <a class="el" href="class_engine_1_1_u_i_animated_sprite.html#a4c6d1061f801523f656acff15e317dd2">Engine.UIAnimatedSprite</a>, <a class="el" href="class_engine_1_1_u_i_button.html#afc851cf3b6ca9548f4c3cad9b494d2f0">Engine.UIButton</a>, <a class="el" href="class_engine_1_1_u_i_sprite.html#a1bea997ddc4d4602a820f20967851bab">Engine.UISprite</a>, and <a class="el" href="class_engine_1_1_u_i_text.html#ab52ca317fd1e9e7d1a1dacbe2c3308f9">Engine.UIText</a>.</p>
 
 </div>
 </div>
@@ -434,7 +445,7 @@ Properties</h2></td></tr>
   </dd>
 </dl>
 
-<p>Reimplemented in <a class="el" href="class_engine_1_1_u_i_button.html#a6b07ab3f981a262c820c3154661a55a2">Engine.UIButton</a>, <a class="el" href="class_engine_1_1_u_i_sprite.html#ae74cbe4c8af5e659ebd6cb62867ae23a">Engine.UISprite</a>, and <a class="el" href="class_engine_1_1_u_i_text.html#ac2ffaf9f7da78c8c6c8290cf46fdeddd">Engine.UIText</a>.</p>
+<p>Reimplemented in <a class="el" href="class_engine_1_1_u_i_animated_sprite.html#aef0f4f97f5f9b4a1acdc492811a1e012">Engine.UIAnimatedSprite</a>, <a class="el" href="class_engine_1_1_u_i_button.html#a6b07ab3f981a262c820c3154661a55a2">Engine.UIButton</a>, <a class="el" href="class_engine_1_1_u_i_sprite.html#ae74cbe4c8af5e659ebd6cb62867ae23a">Engine.UISprite</a>, and <a class="el" href="class_engine_1_1_u_i_text.html#ac2ffaf9f7da78c8c6c8290cf46fdeddd">Engine.UIText</a>.</p>
 
 </div>
 </div>

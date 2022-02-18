@@ -1,7 +1,7 @@
 var class_engine_1_1_u_i_element =
 [
     [ "UIElement", "class_engine_1_1_u_i_element.html#ab665d3a6d87573ac48eac5231a4e35d9", null ],
-    [ "Destroy", "class_engine_1_1_u_i_element.html#a75936ba1b281eadc9c4ea499ecfea2dd", null ],
+    [ "Destroy", "class_engine_1_1_u_i_element.html#acdd46b050a3543e2f960b7589c3a5f5e", null ],
     [ "GetRect", "class_engine_1_1_u_i_element.html#a882871c40da620f85384fa10b33d4fc8", null ],
     [ "OnClick", "class_engine_1_1_u_i_element.html#a398b2e78b891b6e0ac431a1fbe036d6b", null ],
     [ "OnHover", "class_engine_1_1_u_i_element.html#a29be5c1526fc11585dbe8babb51f5216", null ],

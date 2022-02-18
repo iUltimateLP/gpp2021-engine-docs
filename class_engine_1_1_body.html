@@ -98,9 +98,9 @@ $(document).ready(function(){initNavTree('class_engine_1_1_body.html',''); initR
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ad450c5de6d5eb86768438b93caa7901d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_engine_1_1_body.html#ad450c5de6d5eb86768438b93caa7901d">Update</a> ()</td></tr>
-<tr class="memdesc:ad450c5de6d5eb86768438b93caa7901d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finalizes the creation of the body. Needs to be called after any parameters have been set.  <a href="class_engine_1_1_body.html#ad450c5de6d5eb86768438b93caa7901d">More...</a><br /></td></tr>
-<tr class="separator:ad450c5de6d5eb86768438b93caa7901d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae552f5bc18e47995dc62cbe50dc75150"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_engine_1_1_body.html#ae552f5bc18e47995dc62cbe50dc75150">Update</a> (float? customMass=null)</td></tr>
+<tr class="memdesc:ae552f5bc18e47995dc62cbe50dc75150"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finalizes the creation of the body. Needs to be called after any parameters have been set.  <a href="class_engine_1_1_body.html#ae552f5bc18e47995dc62cbe50dc75150">More...</a><br /></td></tr>
+<tr class="separator:ae552f5bc18e47995dc62cbe50dc75150"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a56671e321eab75677793e660a0ac0412"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_engine_1_1_body.html#a56671e321eab75677793e660a0ac0412">Destroy</a> ()</td></tr>
 <tr class="memdesc:a56671e321eab75677793e660a0ac0412"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys this body  <a href="class_engine_1_1_body.html#a56671e321eab75677793e660a0ac0412">More...</a><br /></td></tr>
 <tr class="separator:a56671e321eab75677793e660a0ac0412"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -113,15 +113,24 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a2dc4a921766b51c9c3722a08f3a9a2f0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_engine_1_1_body.html#a2dc4a921766b51c9c3722a08f3a9a2f0">AddImpulse</a> (Vector2 impulseDirection, float strength, Vector2 point)</td></tr>
 <tr class="memdesc:a2dc4a921766b51c9c3722a08f3a9a2f0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a physical impulse to the body at the given point  <a href="class_engine_1_1_body.html#a2dc4a921766b51c9c3722a08f3a9a2f0">More...</a><br /></td></tr>
 <tr class="separator:a2dc4a921766b51c9c3722a08f3a9a2f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3b8619ebec895c36dda3e4fd17983e9f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_engine_1_1_body.html#a3b8619ebec895c36dda3e4fd17983e9f">SetMaxVelocity</a> (Vector2 newMaxVelocity)</td></tr>
+<tr class="memdesc:a3b8619ebec895c36dda3e4fd17983e9f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the new maximum velocity for this body  <a href="class_engine_1_1_body.html#a3b8619ebec895c36dda3e4fd17983e9f">More...</a><br /></td></tr>
+<tr class="separator:a3b8619ebec895c36dda3e4fd17983e9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a2f1a2054ca174a1c7c57ab6464d1a9d2"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_engine_1_1_body.html">Body</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_engine_1_1_body.html#a2f1a2054ca174a1c7c57ab6464d1a9d2">CreateBoxShape</a> (<a class="el" href="class_engine_1_1_game_object.html">GameObject</a> owner, Vector2 location, Vector2 size, float angle=0)</td></tr>
-<tr class="memdesc:a2f1a2054ca174a1c7c57ab6464d1a9d2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a new body from a simple box shape. Note that all units are METERS  <a href="class_engine_1_1_body.html#a2f1a2054ca174a1c7c57ab6464d1a9d2">More...</a><br /></td></tr>
-<tr class="separator:a2f1a2054ca174a1c7c57ab6464d1a9d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3d9473e05935ec6a1cf195b3beb4b995"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_engine_1_1_body.html">Body</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_engine_1_1_body.html#a3d9473e05935ec6a1cf195b3beb4b995">CreateCircleShape</a> (<a class="el" href="class_engine_1_1_game_object.html">GameObject</a> owner, Vector2 center, float radius)</td></tr>
-<tr class="memdesc:a3d9473e05935ec6a1cf195b3beb4b995"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a new body from a circle shape.  <a href="class_engine_1_1_body.html#a3d9473e05935ec6a1cf195b3beb4b995">More...</a><br /></td></tr>
-<tr class="separator:a3d9473e05935ec6a1cf195b3beb4b995"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8f211741166ee0f2bc8210c5232ac38a"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_engine_1_1_body.html">Body</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_engine_1_1_body.html#a8f211741166ee0f2bc8210c5232ac38a">CreateBoxShape</a> (<a class="el" href="class_engine_1_1_game_object.html">GameObject</a> owner, Vector2 location, Vector2 size, float angle=0, Vector2 offset=new Vector2())</td></tr>
+<tr class="memdesc:a8f211741166ee0f2bc8210c5232ac38a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a new body from a simple box shape. Note that all units are METERS  <a href="class_engine_1_1_body.html#a8f211741166ee0f2bc8210c5232ac38a">More...</a><br /></td></tr>
+<tr class="separator:a8f211741166ee0f2bc8210c5232ac38a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a95dc90993534070f6c8b280d2c51e149"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_engine_1_1_body.html">Body</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_engine_1_1_body.html#a95dc90993534070f6c8b280d2c51e149">CreateCircleShape</a> (<a class="el" href="class_engine_1_1_game_object.html">GameObject</a> owner, Vector2 center, float radius, Vector2 offset=new Vector2())</td></tr>
+<tr class="memdesc:a95dc90993534070f6c8b280d2c51e149"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a new body from a circle shape.  <a href="class_engine_1_1_body.html#a95dc90993534070f6c8b280d2c51e149">More...</a><br /></td></tr>
+<tr class="separator:a95dc90993534070f6c8b280d2c51e149"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a969b48972b738520091a30c8d4a9797f"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_engine_1_1_body.html">Body</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_engine_1_1_body.html#a969b48972b738520091a30c8d4a9797f">CreatePolygonShape</a> (<a class="el" href="class_engine_1_1_game_object.html">GameObject</a> owner, Vector2 location, List&lt; Vector2 &gt; points, Vector2 offset=new Vector2())</td></tr>
+<tr class="memdesc:a969b48972b738520091a30c8d4a9797f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a new body from a polygon shape.  <a href="class_engine_1_1_body.html#a969b48972b738520091a30c8d4a9797f">More...</a><br /></td></tr>
+<tr class="separator:a969b48972b738520091a30c8d4a9797f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa9b3f72e751854a20ba7548ac448e67c"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_engine_1_1_body.html">Body</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_engine_1_1_body.html#aa9b3f72e751854a20ba7548ac448e67c">CreatePolygonShapeFromTiled</a> (<a class="el" href="class_engine_1_1_game_object.html">GameObject</a> owner, Vector2 location, <a class="el" href="class_tiled_c_s_1_1_tiled_object.html">TiledCS.TiledObject</a> tiledObject, int tileWidth, int tileHeight, bool includeOffset=true)</td></tr>
+<tr class="memdesc:aa9b3f72e751854a20ba7548ac448e67c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a new physics body from a Tiled object that has a polygon path describing the collision  <a href="class_engine_1_1_body.html#aa9b3f72e751854a20ba7548ac448e67c">More...</a><br /></td></tr>
+<tr class="separator:aa9b3f72e751854a20ba7548ac448e67c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -140,10 +149,10 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a22b0b319b06d26e3b9012b0847f73674"><td class="memItemLeft" align="right" valign="top">Vector2&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_engine_1_1_body.html#a22b0b319b06d26e3b9012b0847f73674">MaxVelocity</a> = new Vector2()</td></tr>
 <tr class="memdesc:a22b0b319b06d26e3b9012b0847f73674"><td class="mdescLeft">&#160;</td><td class="mdescRight">The maximum velocity this physics body is allowed to move at. Only respected if LimitVelocity is true  <a href="class_engine_1_1_body.html#a22b0b319b06d26e3b9012b0847f73674">More...</a><br /></td></tr>
 <tr class="separator:a22b0b319b06d26e3b9012b0847f73674"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0eeb1ded90cb264fdb9f9ce92cbe8484"><td class="memItemLeft" align="right" valign="top">EventHandler&lt; <a class="el" href="struct_engine_1_1_contact_event.html">ContactEvent</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_engine_1_1_body.html#a0eeb1ded90cb264fdb9f9ce92cbe8484">OnBeginCollide</a></td></tr>
+<tr class="memitem:a0eeb1ded90cb264fdb9f9ce92cbe8484"><td class="memItemLeft" align="right" valign="top">EventHandler&lt; <a class="el" href="class_engine_1_1_contact_event.html">ContactEvent</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_engine_1_1_body.html#a0eeb1ded90cb264fdb9f9ce92cbe8484">OnBeginCollide</a></td></tr>
 <tr class="memdesc:a0eeb1ded90cb264fdb9f9ce92cbe8484"><td class="mdescLeft">&#160;</td><td class="mdescRight">Event fired when this body starts colliding with another body  <a href="class_engine_1_1_body.html#a0eeb1ded90cb264fdb9f9ce92cbe8484">More...</a><br /></td></tr>
 <tr class="separator:a0eeb1ded90cb264fdb9f9ce92cbe8484"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac72d1bf441f298773619b755caa32ed8"><td class="memItemLeft" align="right" valign="top">EventHandler&lt; <a class="el" href="struct_engine_1_1_contact_event.html">ContactEvent</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_engine_1_1_body.html#ac72d1bf441f298773619b755caa32ed8">OnEndCollide</a></td></tr>
+<tr class="memitem:ac72d1bf441f298773619b755caa32ed8"><td class="memItemLeft" align="right" valign="top">EventHandler&lt; <a class="el" href="class_engine_1_1_contact_event.html">ContactEvent</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_engine_1_1_body.html#ac72d1bf441f298773619b755caa32ed8">OnEndCollide</a></td></tr>
 <tr class="memdesc:ac72d1bf441f298773619b755caa32ed8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Event fired when this body stops colliding with another body  <a href="class_engine_1_1_body.html#ac72d1bf441f298773619b755caa32ed8">More...</a><br /></td></tr>
 <tr class="separator:ac72d1bf441f298773619b755caa32ed8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3b3f7a6ab46e2ac76168fec621b69f7c"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="class_engine_1_1_body.html">Body</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_engine_1_1_body.html#a3b3f7a6ab46e2ac76168fec621b69f7c">OverlappingBodies</a> = new List&lt;<a class="el" href="class_engine_1_1_body.html">Body</a>&gt;()</td></tr>
@@ -185,6 +194,9 @@ Properties</h2></td></tr>
 <tr class="memitem:a0c053733227bb763d617d96b9c898963"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_engine_1_1_body.html#a0c053733227bb763d617d96b9c898963">IsBullet</a><code> [get, set]</code></td></tr>
 <tr class="memdesc:a0c053733227bb763d617d96b9c898963"><td class="mdescLeft">&#160;</td><td class="mdescRight">Marks this body as a bullet so Box2D can handle high velocities  <a href="class_engine_1_1_body.html#a0c053733227bb763d617d96b9c898963">More...</a><br /></td></tr>
 <tr class="separator:a0c053733227bb763d617d96b9c898963"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae3574226c0ffc69d4c59de399da8b67c"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_engine_1_1_body.html#ae3574226c0ffc69d4c59de399da8b67c">Mass</a><code> [get]</code></td></tr>
+<tr class="memdesc:ae3574226c0ffc69d4c59de399da8b67c"><td class="mdescLeft">&#160;</td><td class="mdescRight">The mass of this body  <a href="class_engine_1_1_body.html#ae3574226c0ffc69d4c59de399da8b67c">More...</a><br /></td></tr>
+<tr class="separator:ae3574226c0ffc69d4c59de399da8b67c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >A body in the physics scene. Can have physical attributes and wraps Box2D. All angles are expected to be in degrees </p>
@@ -270,8 +282,8 @@ Properties</h2></td></tr>
 
 </div>
 </div>
-<a id="a2f1a2054ca174a1c7c57ab6464d1a9d2" name="a2f1a2054ca174a1c7c57ab6464d1a9d2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2f1a2054ca174a1c7c57ab6464d1a9d2">&#9670;&nbsp;</a></span>CreateBoxShape()</h2>
+<a id="a8f211741166ee0f2bc8210c5232ac38a" name="a8f211741166ee0f2bc8210c5232ac38a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8f211741166ee0f2bc8210c5232ac38a">&#9670;&nbsp;</a></span>CreateBoxShape()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -301,7 +313,13 @@ Properties</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>angle</em> = <code>0</code>&#160;</td>
+          <td class="paramname"><em>angle</em> = <code>0</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Vector2&#160;</td>
+          <td class="paramname"><em>offset</em> = <code>new&#160;Vector2()</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -330,8 +348,8 @@ Properties</h2></td></tr>
 
 </div>
 </div>
-<a id="a3d9473e05935ec6a1cf195b3beb4b995" name="a3d9473e05935ec6a1cf195b3beb4b995"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3d9473e05935ec6a1cf195b3beb4b995">&#9670;&nbsp;</a></span>CreateCircleShape()</h2>
+<a id="a95dc90993534070f6c8b280d2c51e149" name="a95dc90993534070f6c8b280d2c51e149"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a95dc90993534070f6c8b280d2c51e149">&#9670;&nbsp;</a></span>CreateCircleShape()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -355,7 +373,13 @@ Properties</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>radius</em>&#160;</td>
+          <td class="paramname"><em>radius</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Vector2&#160;</td>
+          <td class="paramname"><em>offset</em> = <code>new&#160;Vector2()</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -383,6 +407,137 @@ Properties</h2></td></tr>
 
 </div>
 </div>
+<a id="a969b48972b738520091a30c8d4a9797f" name="a969b48972b738520091a30c8d4a9797f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a969b48972b738520091a30c8d4a9797f">&#9670;&nbsp;</a></span>CreatePolygonShape()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="class_engine_1_1_body.html">Body</a> Engine.Body.CreatePolygonShape </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_engine_1_1_game_object.html">GameObject</a>&#160;</td>
+          <td class="paramname"><em>owner</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Vector2&#160;</td>
+          <td class="paramname"><em>location</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">List&lt; Vector2 &gt;&#160;</td>
+          <td class="paramname"><em>points</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Vector2&#160;</td>
+          <td class="paramname"><em>offset</em> = <code>new&#160;Vector2()</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Creates a new body from a polygon shape. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">owner</td><td>The game object that owns this body</td></tr>
+    <tr><td class="paramname">points</td><td>A list of vertices for the polygon (in world space!)</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="aa9b3f72e751854a20ba7548ac448e67c" name="aa9b3f72e751854a20ba7548ac448e67c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa9b3f72e751854a20ba7548ac448e67c">&#9670;&nbsp;</a></span>CreatePolygonShapeFromTiled()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="class_engine_1_1_body.html">Body</a> Engine.Body.CreatePolygonShapeFromTiled </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_engine_1_1_game_object.html">GameObject</a>&#160;</td>
+          <td class="paramname"><em>owner</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Vector2&#160;</td>
+          <td class="paramname"><em>location</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_tiled_c_s_1_1_tiled_object.html">TiledCS.TiledObject</a>&#160;</td>
+          <td class="paramname"><em>tiledObject</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>tileWidth</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>tileHeight</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>includeOffset</em> = <code>true</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Creates a new physics body from a Tiled object that has a polygon path describing the collision </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">owner</td><td>The game object that owns this body</td></tr>
+    <tr><td class="paramname">location</td><td>The location at where to spawn this body</td></tr>
+    <tr><td class="paramname">tiledObject</td><td>The Tiled object which contains the polygon data</td></tr>
+    <tr><td class="paramname">tileWidth</td><td>The width (in pixels) of one tile</td></tr>
+    <tr><td class="paramname">tileHeight</td><td>The height (in pixels) of one tile</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd></dd></dl>
+
+</div>
+</div>
 <a id="a56671e321eab75677793e660a0ac0412" name="a56671e321eab75677793e660a0ac0412"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a56671e321eab75677793e660a0ac0412">&#9670;&nbsp;</a></span>Destroy()</h2>
 
@@ -399,6 +554,32 @@ Properties</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Destroys this body </p>
+
+</div>
+</div>
+<a id="a3b8619ebec895c36dda3e4fd17983e9f" name="a3b8619ebec895c36dda3e4fd17983e9f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3b8619ebec895c36dda3e4fd17983e9f">&#9670;&nbsp;</a></span>SetMaxVelocity()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Engine.Body.SetMaxVelocity </td>
+          <td>(</td>
+          <td class="paramtype">Vector2&#160;</td>
+          <td class="paramname"><em>newMaxVelocity</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Sets the new maximum velocity for this body </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">newMaxVelocity</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -439,8 +620,8 @@ Properties</h2></td></tr>
 
 </div>
 </div>
-<a id="ad450c5de6d5eb86768438b93caa7901d" name="ad450c5de6d5eb86768438b93caa7901d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad450c5de6d5eb86768438b93caa7901d">&#9670;&nbsp;</a></span>Update()</h2>
+<a id="ae552f5bc18e47995dc62cbe50dc75150" name="ae552f5bc18e47995dc62cbe50dc75150"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae552f5bc18e47995dc62cbe50dc75150">&#9670;&nbsp;</a></span>Update()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -448,7 +629,8 @@ Properties</h2></td></tr>
         <tr>
           <td class="memname">void Engine.Body.Update </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype">float?&#160;</td>
+          <td class="paramname"><em>customMass</em> = <code>null</code></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -563,7 +745,7 @@ Properties</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">EventHandler&lt;<a class="el" href="struct_engine_1_1_contact_event.html">ContactEvent</a>&gt; Engine.Body.OnBeginCollide</td>
+          <td class="memname">EventHandler&lt;<a class="el" href="class_engine_1_1_contact_event.html">ContactEvent</a>&gt; Engine.Body.OnBeginCollide</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -579,7 +761,7 @@ Properties</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">EventHandler&lt;<a class="el" href="struct_engine_1_1_contact_event.html">ContactEvent</a>&gt; Engine.Body.OnEndCollide</td>
+          <td class="memname">EventHandler&lt;<a class="el" href="class_engine_1_1_contact_event.html">ContactEvent</a>&gt; Engine.Body.OnEndCollide</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -778,6 +960,30 @@ Properties</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Location of this body in the physics scene (in meters!) </p>
+
+</div>
+</div>
+<a id="ae3574226c0ffc69d4c59de399da8b67c" name="ae3574226c0ffc69d4c59de399da8b67c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae3574226c0ffc69d4c59de399da8b67c">&#9670;&nbsp;</a></span>Mass</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float Engine.Body.Mass</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The mass of this body </p>
 
 </div>
 </div>

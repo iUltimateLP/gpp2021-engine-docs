@@ -101,6 +101,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:af305597472d478cb856fccbe4f7dd4ab"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_engine_1_1_renderer_manager.html#af305597472d478cb856fccbe4f7dd4ab">Initialize</a> ()</td></tr>
 <tr class="memdesc:af305597472d478cb856fccbe4f7dd4ab"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes the renderer  <a href="class_engine_1_1_renderer_manager.html#af305597472d478cb856fccbe4f7dd4ab">More...</a><br /></td></tr>
 <tr class="separator:af305597472d478cb856fccbe4f7dd4ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8a47483a28620566796c780b48fd4038"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_engine_1_1_renderer_manager.html#a8a47483a28620566796c780b48fd4038">RenderCopy</a> (IntPtr texture, ref SDL_Rect sourceRect, ref SDL_Rect drawRect, double rotation, ref SDL_Point center, SDL_RendererFlip flip)</td></tr>
+<tr class="memdesc:a8a47483a28620566796c780b48fd4038"><td class="mdescLeft">&#160;</td><td class="mdescRight">A copy of SDL_RenderCopyEx which will decide automatically whether it renders to the renderer directly or to a render target when OpenGL is enabled  <a href="class_engine_1_1_renderer_manager.html#a8a47483a28620566796c780b48fd4038">More...</a><br /></td></tr>
+<tr class="separator:a8a47483a28620566796c780b48fd4038"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a14372fd89edeb1466e9bd7bcde25264e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_engine_1_1_renderer_manager.html#a14372fd89edeb1466e9bd7bcde25264e">Shutdown</a> ()</td></tr>
+<tr class="memdesc:a14372fd89edeb1466e9bd7bcde25264e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shuts down  <a href="class_engine_1_1_renderer_manager.html#a14372fd89edeb1466e9bd7bcde25264e">More...</a><br /></td></tr>
+<tr class="separator:a14372fd89edeb1466e9bd7bcde25264e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9dd852d075bb861c80107a77ea0867ba"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_engine_1_1_renderer_manager.html#a9dd852d075bb861c80107a77ea0867ba">Clear</a> ()</td></tr>
 <tr class="memdesc:a9dd852d075bb861c80107a77ea0867ba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clears the surface  <a href="class_engine_1_1_renderer_manager.html#a9dd852d075bb861c80107a77ea0867ba">More...</a><br /></td></tr>
 <tr class="separator:a9dd852d075bb861c80107a77ea0867ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -115,6 +121,11 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:af56465d416bcf2c3c6a815c1270eb7da"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_engine_1_1_renderer_manager.html#af56465d416bcf2c3c6a815c1270eb7da">VSync</a> = false</td></tr>
 <tr class="memdesc:af56465d416bcf2c3c6a815c1270eb7da"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether to enable / disable VSync  <a href="class_engine_1_1_renderer_manager.html#af56465d416bcf2c3c6a815c1270eb7da">More...</a><br /></td></tr>
 <tr class="separator:af56465d416bcf2c3c6a815c1270eb7da"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a42d36a8a60be04e8037a08a38bd86c34"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_engine_1_1_renderer_manager.html#a42d36a8a60be04e8037a08a38bd86c34">UseOpenGL</a> = false</td></tr>
+<tr class="memdesc:a42d36a8a60be04e8037a08a38bd86c34"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether to use OpenGL  <a href="class_engine_1_1_renderer_manager.html#a42d36a8a60be04e8037a08a38bd86c34">More...</a><br /></td></tr>
+<tr class="separator:a42d36a8a60be04e8037a08a38bd86c34"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a87348dd40c3f1d53e1a4b3f981423e86"><td class="memItemLeft" align="right" valign="top">IntPtr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_engine_1_1_renderer_manager.html#a87348dd40c3f1d53e1a4b3f981423e86">_rtSurface</a></td></tr>
+<tr class="separator:a87348dd40c3f1d53e1a4b3f981423e86"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
@@ -127,6 +138,8 @@ Properties</h2></td></tr>
 <tr class="memitem:a7929f3a54b7edcb1a85e645788de885d"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_engine_1_1_renderer_manager.html">RendererManager</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_engine_1_1_renderer_manager.html#a7929f3a54b7edcb1a85e645788de885d">Instance</a><code> [get]</code></td></tr>
 <tr class="memdesc:a7929f3a54b7edcb1a85e645788de885d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Singleton instance  <a href="class_engine_1_1_renderer_manager.html#a7929f3a54b7edcb1a85e645788de885d">More...</a><br /></td></tr>
 <tr class="separator:a7929f3a54b7edcb1a85e645788de885d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9aaa9f57e7288a18d4a2050379a82149"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_engine_1_1_open_g_l_utilities.html">OpenGLUtilities</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_engine_1_1_renderer_manager.html#a9aaa9f57e7288a18d4a2050379a82149">OpenGL</a><code> [get]</code></td></tr>
+<tr class="separator:a9aaa9f57e7288a18d4a2050379a82149"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4afd0fd486a42676352c154214ade60e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_engine_1_1_camera.html">Camera</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_engine_1_1_renderer_manager.html#a4afd0fd486a42676352c154214ade60e">CurrentCamera</a><code> [get]</code></td></tr>
 <tr class="memdesc:a4afd0fd486a42676352c154214ade60e"><td class="mdescLeft">&#160;</td><td class="mdescRight">The currently active camera view target  <a href="class_engine_1_1_renderer_manager.html#a4afd0fd486a42676352c154214ade60e">More...</a><br /></td></tr>
 <tr class="separator:a4afd0fd486a42676352c154214ade60e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -192,6 +205,71 @@ Properties</h2></td></tr>
 
 </div>
 </div>
+<a id="a8a47483a28620566796c780b48fd4038" name="a8a47483a28620566796c780b48fd4038"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8a47483a28620566796c780b48fd4038">&#9670;&nbsp;</a></span>RenderCopy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Engine.RendererManager.RenderCopy </td>
+          <td>(</td>
+          <td class="paramtype">IntPtr&#160;</td>
+          <td class="paramname"><em>texture</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ref SDL_Rect&#160;</td>
+          <td class="paramname"><em>sourceRect</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ref SDL_Rect&#160;</td>
+          <td class="paramname"><em>drawRect</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>rotation</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ref SDL_Point&#160;</td>
+          <td class="paramname"><em>center</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">SDL_RendererFlip&#160;</td>
+          <td class="paramname"><em>flip</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>A copy of SDL_RenderCopyEx which will decide automatically whether it renders to the renderer directly or to a render target when OpenGL is enabled </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">texture</td><td></td></tr>
+    <tr><td class="paramname">sourceRect</td><td></td></tr>
+    <tr><td class="paramname">drawRect</td><td></td></tr>
+    <tr><td class="paramname">rotation</td><td></td></tr>
+    <tr><td class="paramname">center</td><td></td></tr>
+    <tr><td class="paramname">flip</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a id="a5cab697a3318a8754aaec267de3bf7a0" name="a5cab697a3318a8754aaec267de3bf7a0"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a5cab697a3318a8754aaec267de3bf7a0">&#9670;&nbsp;</a></span>SetCamera()</h2>
 
@@ -210,7 +288,40 @@ Properties</h2></td></tr>
 
 </div>
 </div>
+<a id="a14372fd89edeb1466e9bd7bcde25264e" name="a14372fd89edeb1466e9bd7bcde25264e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a14372fd89edeb1466e9bd7bcde25264e">&#9670;&nbsp;</a></span>Shutdown()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Engine.RendererManager.Shutdown </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Shuts down </p>
+
+</div>
+</div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a id="a87348dd40c3f1d53e1a4b3f981423e86" name="a87348dd40c3f1d53e1a4b3f981423e86"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a87348dd40c3f1d53e1a4b3f981423e86">&#9670;&nbsp;</a></span>_rtSurface</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">IntPtr Engine.RendererManager._rtSurface</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a0eef770a35569c76f77d98e3149adb0f" name="a0eef770a35569c76f77d98e3149adb0f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0eef770a35569c76f77d98e3149adb0f">&#9670;&nbsp;</a></span>PIXELS_PER_METER</h2>
 
@@ -232,6 +343,22 @@ Properties</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Scaling factor for pixel&lt;-&gt;meter conversion. A value of 100 means that 100 pixels equal 1 meter </p>
+
+</div>
+</div>
+<a id="a42d36a8a60be04e8037a08a38bd86c34" name="a42d36a8a60be04e8037a08a38bd86c34"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a42d36a8a60be04e8037a08a38bd86c34">&#9670;&nbsp;</a></span>UseOpenGL</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Engine.RendererManager.UseOpenGL = false</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Whether to use OpenGL </p>
 
 </div>
 </div>
@@ -297,6 +424,28 @@ Properties</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Singleton instance </p>
+
+</div>
+</div>
+<a id="a9aaa9f57e7288a18d4a2050379a82149" name="a9aaa9f57e7288a18d4a2050379a82149"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9aaa9f57e7288a18d4a2050379a82149">&#9670;&nbsp;</a></span>OpenGL</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_engine_1_1_open_g_l_utilities.html">OpenGLUtilities</a> Engine.RendererManager.OpenGL</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>

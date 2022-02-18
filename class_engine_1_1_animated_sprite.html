@@ -117,9 +117,9 @@ Public Types</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a6d2138370e48becb14ca8bc73e370b44"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_engine_1_1_animated_sprite.html#a6d2138370e48becb14ca8bc73e370b44">AnimatedSprite</a> (string resPath, Vector2 _worldSize, <a class="el" href="struct_engine_1_1_spritesheet_info.html">SpritesheetInfo</a> animationInfo)</td></tr>
-<tr class="memdesc:a6d2138370e48becb14ca8bc73e370b44"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the resource to render for this sprite together with it's world size in meters  <a href="class_engine_1_1_animated_sprite.html#a6d2138370e48becb14ca8bc73e370b44">More...</a><br /></td></tr>
-<tr class="separator:a6d2138370e48becb14ca8bc73e370b44"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6d55b30b3f84ecef90e151f4e0b09dce"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_engine_1_1_animated_sprite.html#a6d55b30b3f84ecef90e151f4e0b09dce">AnimatedSprite</a> (string animationMetaPath, Vector2 _worldSize)</td></tr>
+<tr class="memdesc:a6d55b30b3f84ecef90e151f4e0b09dce"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the resource to render for this sprite together with it's world size in meters  <a href="class_engine_1_1_animated_sprite.html#a6d55b30b3f84ecef90e151f4e0b09dce">More...</a><br /></td></tr>
+<tr class="separator:a6d55b30b3f84ecef90e151f4e0b09dce"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab9e6b9e34a10e6698513718afca1b6c8"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_engine_1_1_animated_sprite.html#ab9e6b9e34a10e6698513718afca1b6c8">OnBegin</a> ()</td></tr>
 <tr class="memdesc:ab9e6b9e34a10e6698513718afca1b6c8"><td class="mdescLeft">&#160;</td><td class="mdescRight">On game begin, load the surface  <a href="class_engine_1_1_animated_sprite.html#ab9e6b9e34a10e6698513718afca1b6c8">More...</a><br /></td></tr>
 <tr class="separator:ab9e6b9e34a10e6698513718afca1b6c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -132,6 +132,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a2777ef6fb00c5d602d584062a15f64be"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_engine_1_1_animated_sprite.html#a2777ef6fb00c5d602d584062a15f64be">OnEnd</a> ()</td></tr>
 <tr class="memdesc:a2777ef6fb00c5d602d584062a15f64be"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when the object is destroyed / removed from the level  <a href="class_engine_1_1_animated_sprite.html#a2777ef6fb00c5d602d584062a15f64be">More...</a><br /></td></tr>
 <tr class="separator:a2777ef6fb00c5d602d584062a15f64be"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4ec53ada1bf14c3e6e9cfcb7fe6ab8ad"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_engine_1_1_animation_meta_file_1_1_animation_info.html">AnimationMetaFile.AnimationInfo</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_engine_1_1_animated_sprite.html#a4ec53ada1bf14c3e6e9cfcb7fe6ab8ad">GetAnimation</a> (string animationName)</td></tr>
+<tr class="memdesc:a4ec53ada1bf14c3e6e9cfcb7fe6ab8ad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the animation info for the specific animation name  <a href="class_engine_1_1_animated_sprite.html#a4ec53ada1bf14c3e6e9cfcb7fe6ab8ad">More...</a><br /></td></tr>
+<tr class="separator:a4ec53ada1bf14c3e6e9cfcb7fe6ab8ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a492f0f0677fdd029a20f482f14306944"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_engine_1_1_animated_sprite.html#a492f0f0677fdd029a20f482f14306944">SetFrame</a> (int newFrameIndex)</td></tr>
 <tr class="memdesc:a492f0f0677fdd029a20f482f14306944"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the current frame and resets the animation  <a href="class_engine_1_1_animated_sprite.html#a492f0f0677fdd029a20f482f14306944">More...</a><br /></td></tr>
 <tr class="separator:a492f0f0677fdd029a20f482f14306944"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -174,18 +177,38 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:ad50244a2e5251a16476f8b9bc99a4796"><td class="memItemLeft" align="right" valign="top">Vector2&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_engine_1_1_animated_sprite.html#ad50244a2e5251a16476f8b9bc99a4796">WorldSize</a></td></tr>
 <tr class="memdesc:ad50244a2e5251a16476f8b9bc99a4796"><td class="mdescLeft">&#160;</td><td class="mdescRight">The world size of this sprite  <a href="class_engine_1_1_animated_sprite.html#ad50244a2e5251a16476f8b9bc99a4796">More...</a><br /></td></tr>
 <tr class="separator:ad50244a2e5251a16476f8b9bc99a4796"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab781322f56b3c7fe8a0a7b97d35d0ef3"><td class="memItemLeft" align="right" valign="top">Point&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_engine_1_1_animated_sprite.html#ab781322f56b3c7fe8a0a7b97d35d0ef3">RepeatTileSize</a> = new Point()</td></tr>
+<tr class="memdesc:ab781322f56b3c7fe8a0a7b97d35d0ef3"><td class="mdescLeft">&#160;</td><td class="mdescRight">When the WrapMode is <a class="el" href="namespace_engine.html#aefbaefb596e4cf227ed4d6c379c67965a7020426cfb0a204051be4b3053d2acc8">WrappingMode.Repeat</a>, this is the size of one tile  <a href="class_engine_1_1_animated_sprite.html#ab781322f56b3c7fe8a0a7b97d35d0ef3">More...</a><br /></td></tr>
+<tr class="separator:ab781322f56b3c7fe8a0a7b97d35d0ef3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a64d659d5bc58b2a2777731de1032dbcd"><td class="memItemLeft" align="right" valign="top">Vector2&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_engine_1_1_animated_sprite.html#a64d659d5bc58b2a2777731de1032dbcd">Pivot</a> = new Vector2(-1, -1)</td></tr>
 <tr class="memdesc:a64d659d5bc58b2a2777731de1032dbcd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Rotation pivot of the sprite (by default the center of the size) Setting this to (-1, -1) will automatically evaluate to the center  <a href="class_engine_1_1_animated_sprite.html#a64d659d5bc58b2a2777731de1032dbcd">More...</a><br /></td></tr>
 <tr class="separator:a64d659d5bc58b2a2777731de1032dbcd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8ce3bc84313dfb31f944faf241e437e8"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_engine_1_1_animated_sprite.html#a8ce3bc84313dfb31f944faf241e437e8">ZIndex</a> = 0</td></tr>
 <tr class="memdesc:a8ce3bc84313dfb31f944faf241e437e8"><td class="mdescLeft">&#160;</td><td class="mdescRight">The Z index of this sprite  <a href="class_engine_1_1_animated_sprite.html#a8ce3bc84313dfb31f944faf241e437e8">More...</a><br /></td></tr>
 <tr class="separator:a8ce3bc84313dfb31f944faf241e437e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8c8a26498379ffdaec49856146d9ab3b"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_engine_1_1_animated_sprite.html#a8c8a26498379ffdaec49856146d9ab3b">Opacity</a> = 1.0f</td></tr>
+<tr class="memdesc:a8c8a26498379ffdaec49856146d9ab3b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Opacity of this sprite  <a href="class_engine_1_1_animated_sprite.html#a8c8a26498379ffdaec49856146d9ab3b">More...</a><br /></td></tr>
+<tr class="separator:a8c8a26498379ffdaec49856146d9ab3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af3044aefd2a2eb94debf4595633824be"><td class="memItemLeft" align="right" valign="top">Vector3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_engine_1_1_animated_sprite.html#af3044aefd2a2eb94debf4595633824be">ColorMod</a> = new Vector3(1, 1, 1)</td></tr>
+<tr class="memdesc:af3044aefd2a2eb94debf4595633824be"><td class="mdescLeft">&#160;</td><td class="mdescRight">Color multiplication effect  <a href="class_engine_1_1_animated_sprite.html#af3044aefd2a2eb94debf4595633824be">More...</a><br /></td></tr>
+<tr class="separator:af3044aefd2a2eb94debf4595633824be"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae887778dbbfea1cfb8954a4bfe77712f"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_engine_1_1_animated_sprite.html#ae887778dbbfea1cfb8954a4bfe77712f">_currentAnimName</a> = &quot;&quot;</td></tr>
+<tr class="separator:ae887778dbbfea1cfb8954a4bfe77712f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae6a1016e49d611fe6d44ca2930fcfd79"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_engine_1_1_animated_sprite.html#ae6a1016e49d611fe6d44ca2930fcfd79">IsPlaying</a> = true</td></tr>
 <tr class="memdesc:ae6a1016e49d611fe6d44ca2930fcfd79"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether the animation is playing or not  <a href="class_engine_1_1_animated_sprite.html#ae6a1016e49d611fe6d44ca2930fcfd79">More...</a><br /></td></tr>
 <tr class="separator:ae6a1016e49d611fe6d44ca2930fcfd79"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a51d67628ac88921dd491667c9f5c83ad"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_engine_1_1_animated_sprite.html#ad7ef74eb214abf10ba9f0af849839662">AnimDirection</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_engine_1_1_animated_sprite.html#a51d67628ac88921dd491667c9f5c83ad">Direction</a> = <a class="el" href="class_engine_1_1_animated_sprite.html#ad7ef74eb214abf10ba9f0af849839662a67d2f6740a8eaebf4d5c6f79be8da481">AnimDirection.Forward</a></td></tr>
 <tr class="memdesc:a51d67628ac88921dd491667c9f5c83ad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Direction of the animation  <a href="class_engine_1_1_animated_sprite.html#a51d67628ac88921dd491667c9f5c83ad">More...</a><br /></td></tr>
 <tr class="separator:a51d67628ac88921dd491667c9f5c83ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a50e056d9d6549a1ac5bc8709662ea4ed"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_engine_1_1_animated_sprite.html#a50e056d9d6549a1ac5bc8709662ea4ed">Looping</a> = true</td></tr>
+<tr class="memdesc:a50e056d9d6549a1ac5bc8709662ea4ed"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether the animation should be looping or not  <a href="class_engine_1_1_animated_sprite.html#a50e056d9d6549a1ac5bc8709662ea4ed">More...</a><br /></td></tr>
+<tr class="separator:a50e056d9d6549a1ac5bc8709662ea4ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad971385a5f28db8fdad0b59ea575155e"><td class="memItemLeft" align="right" valign="top">EventHandler&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_engine_1_1_animated_sprite.html#ad971385a5f28db8fdad0b59ea575155e">AnimFinished</a></td></tr>
+<tr class="memdesc:ad971385a5f28db8fdad0b59ea575155e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Event handler that's triggered when the animation is finished (in non-looping mode)  <a href="class_engine_1_1_animated_sprite.html#ad971385a5f28db8fdad0b59ea575155e">More...</a><br /></td></tr>
+<tr class="separator:ad971385a5f28db8fdad0b59ea575155e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7913b1e0ac7f36c377c7a52a27b5fb81"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_engine_1_1_animated_sprite.html#a7913b1e0ac7f36c377c7a52a27b5fb81">ResetFrameAfterFinished</a> = true</td></tr>
+<tr class="memdesc:a7913b1e0ac7f36c377c7a52a27b5fb81"><td class="mdescLeft">&#160;</td><td class="mdescRight">If true, the animation is reset to frame #0 after the non-looping animation finished  <a href="class_engine_1_1_animated_sprite.html#a7913b1e0ac7f36c377c7a52a27b5fb81">More...</a><br /></td></tr>
+<tr class="separator:a7913b1e0ac7f36c377c7a52a27b5fb81"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
@@ -203,6 +226,12 @@ Static Public Attributes</h2></td></tr>
 Properties</h2></td></tr>
 <tr class="memitem:af366927b73652de36fe7e3fbb9f523d7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_engine.html#a1f6b60628333a454a949f2ae258d80c8">FlipMode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_engine_1_1_animated_sprite.html#af366927b73652de36fe7e3fbb9f523d7">FlipMode</a><code> [get, set]</code></td></tr>
 <tr class="separator:af366927b73652de36fe7e3fbb9f523d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a546bad9522c957a628f50976f44bec0c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_engine.html#aefbaefb596e4cf227ed4d6c379c67965">WrappingMode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_engine_1_1_animated_sprite.html#a546bad9522c957a628f50976f44bec0c">WrapMode</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a546bad9522c957a628f50976f44bec0c"><td class="mdescLeft">&#160;</td><td class="mdescRight">This sprite's repeat mode  <a href="class_engine_1_1_animated_sprite.html#a546bad9522c957a628f50976f44bec0c">More...</a><br /></td></tr>
+<tr class="separator:a546bad9522c957a628f50976f44bec0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a286576775f3616d6dc3619e9843118c8"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_engine_1_1_animated_sprite.html#a286576775f3616d6dc3619e9843118c8">Animation</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a286576775f3616d6dc3619e9843118c8"><td class="mdescLeft">&#160;</td><td class="mdescRight">The current animation to play (leave empty for first one)  <a href="class_engine_1_1_animated_sprite.html#a286576775f3616d6dc3619e9843118c8">More...</a><br /></td></tr>
+<tr class="separator:a286576775f3616d6dc3619e9843118c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header properties_class_engine_1_1_entity"><td colspan="2" onclick="javascript:toggleInherit('properties_class_engine_1_1_entity')"><img src="closed.png" alt="-"/>&#160;Properties inherited from <a class="el" href="class_engine_1_1_entity.html">Engine.Entity</a></td></tr>
 <tr class="memitem:a11e56c8f8c3724e671e35565694aaa11 inherit properties_class_engine_1_1_entity"><td class="memItemLeft" align="right" valign="top">Vector2&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_engine_1_1_entity.html#a11e56c8f8c3724e671e35565694aaa11">Location</a><code> [get, set]</code></td></tr>
 <tr class="memdesc:a11e56c8f8c3724e671e35565694aaa11 inherit properties_class_engine_1_1_entity"><td class="mdescLeft">&#160;</td><td class="mdescRight">Location of this entity in the world (in meters)  <a href="class_engine_1_1_entity.html#a11e56c8f8c3724e671e35565694aaa11">More...</a><br /></td></tr>
@@ -230,6 +259,9 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:af7f63f79f1d8ed5e9412d180f7cede73 inherit pub_static_methods_class_engine_1_1_game_object"><td class="memItemLeft" align="right" valign="top">static T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_engine_1_1_game_object.html#af7f63f79f1d8ed5e9412d180f7cede73">New&lt; T &gt;</a> (params object[] args)</td></tr>
 <tr class="memdesc:af7f63f79f1d8ed5e9412d180f7cede73 inherit pub_static_methods_class_engine_1_1_game_object"><td class="mdescLeft">&#160;</td><td class="mdescRight">Instantiates a new object and adds it to the current scene. Arguments to this generic function are completely depending on the constructor of the object you're trying to construct.  <a href="class_engine_1_1_game_object.html#af7f63f79f1d8ed5e9412d180f7cede73">More...</a><br /></td></tr>
 <tr class="separator:af7f63f79f1d8ed5e9412d180f7cede73 inherit pub_static_methods_class_engine_1_1_game_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9b397756c5d0f05c3308e10272e81e18 inherit pub_static_methods_class_engine_1_1_game_object"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_engine_1_1_game_object.html">GameObject</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_engine_1_1_game_object.html#a9b397756c5d0f05c3308e10272e81e18">New</a> (Type t, params object[] args)</td></tr>
+<tr class="memdesc:a9b397756c5d0f05c3308e10272e81e18 inherit pub_static_methods_class_engine_1_1_game_object"><td class="mdescLeft">&#160;</td><td class="mdescRight">Instantiates a new object and adds it to the current scene. Arguments to this generic function are completely depending on the constructor of the object you're trying to construct.  <a href="class_engine_1_1_game_object.html#a9b397756c5d0f05c3308e10272e81e18">More...</a><br /></td></tr>
+<tr class="separator:a9b397756c5d0f05c3308e10272e81e18 inherit pub_static_methods_class_engine_1_1_game_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab768cd628abcfe0d5f34d57a2baaecdd inherit pub_static_methods_class_engine_1_1_game_object"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_engine_1_1_game_object.html#ab768cd628abcfe0d5f34d57a2baaecdd">Destroy</a> (<a class="el" href="class_engine_1_1_game_object.html">GameObject</a> obj)</td></tr>
 <tr class="memdesc:ab768cd628abcfe0d5f34d57a2baaecdd inherit pub_static_methods_class_engine_1_1_game_object"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys the given object and removes it from the scene  <a href="class_engine_1_1_game_object.html#ab768cd628abcfe0d5f34d57a2baaecdd">More...</a><br /></td></tr>
 <tr class="separator:ab768cd628abcfe0d5f34d57a2baaecdd inherit pub_static_methods_class_engine_1_1_game_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -264,8 +296,8 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a6d2138370e48becb14ca8bc73e370b44" name="a6d2138370e48becb14ca8bc73e370b44"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6d2138370e48becb14ca8bc73e370b44">&#9670;&nbsp;</a></span>AnimatedSprite()</h2>
+<a id="a6d55b30b3f84ecef90e151f4e0b09dce" name="a6d55b30b3f84ecef90e151f4e0b09dce"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6d55b30b3f84ecef90e151f4e0b09dce">&#9670;&nbsp;</a></span>AnimatedSprite()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -274,19 +306,13 @@ Additional Inherited Members</h2></td></tr>
           <td class="memname">Engine.AnimatedSprite.AnimatedSprite </td>
           <td>(</td>
           <td class="paramtype">string&#160;</td>
-          <td class="paramname"><em>resPath</em>, </td>
+          <td class="paramname"><em>animationMetaPath</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">Vector2&#160;</td>
-          <td class="paramname"><em>_worldSize</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="struct_engine_1_1_spritesheet_info.html">SpritesheetInfo</a>&#160;</td>
-          <td class="paramname"><em>animationInfo</em>&#160;</td>
+          <td class="paramname"><em>_worldSize</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -299,9 +325,8 @@ Additional Inherited Members</h2></td></tr>
 <p>Sets the resource to render for this sprite together with it's world size in meters </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">resPath</td><td>The path of the resource to render</td></tr>
+    <tr><td class="paramname">animationMetaPath</td><td>The path of the resource to render</td></tr>
     <tr><td class="paramname">_worldSize</td><td>The world size (in meters) to render this sprite at</td></tr>
-    <tr><td class="paramname">animationInfo</td><td>The info for this spritesheet</td></tr>
   </table>
   </dd>
 </dl>
@@ -309,6 +334,33 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="a4ec53ada1bf14c3e6e9cfcb7fe6ab8ad" name="a4ec53ada1bf14c3e6e9cfcb7fe6ab8ad"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4ec53ada1bf14c3e6e9cfcb7fe6ab8ad">&#9670;&nbsp;</a></span>GetAnimation()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_engine_1_1_animation_meta_file_1_1_animation_info.html">AnimationMetaFile.AnimationInfo</a> Engine.AnimatedSprite.GetAnimation </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>animationName</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns the animation info for the specific animation name </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">animationName</td><td>Name of the animation. Can be left empty for first one</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd></dd></dl>
+
+</div>
+</div>
 <a id="af38416f1c4369c188abf5ffc6cc1f92f" name="af38416f1c4369c188abf5ffc6cc1f92f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af38416f1c4369c188abf5ffc6cc1f92f">&#9670;&nbsp;</a></span>GetRepeatTileSize()</h2>
 
@@ -535,6 +587,52 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a id="ae887778dbbfea1cfb8954a4bfe77712f" name="ae887778dbbfea1cfb8954a4bfe77712f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae887778dbbfea1cfb8954a4bfe77712f">&#9670;&nbsp;</a></span>_currentAnimName</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">string Engine.AnimatedSprite._currentAnimName = &quot;&quot;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad971385a5f28db8fdad0b59ea575155e" name="ad971385a5f28db8fdad0b59ea575155e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad971385a5f28db8fdad0b59ea575155e">&#9670;&nbsp;</a></span>AnimFinished</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">EventHandler Engine.AnimatedSprite.AnimFinished</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Event handler that's triggered when the animation is finished (in non-looping mode) </p>
+
+</div>
+</div>
+<a id="af3044aefd2a2eb94debf4595633824be" name="af3044aefd2a2eb94debf4595633824be"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af3044aefd2a2eb94debf4595633824be">&#9670;&nbsp;</a></span>ColorMod</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Vector3 Engine.AnimatedSprite.ColorMod = new Vector3(1, 1, 1)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Color multiplication effect </p>
+
+</div>
+</div>
 <a id="a51d67628ac88921dd491667c9f5c83ad" name="a51d67628ac88921dd491667c9f5c83ad"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a51d67628ac88921dd491667c9f5c83ad">&#9670;&nbsp;</a></span>Direction</h2>
 
@@ -591,6 +689,38 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="a50e056d9d6549a1ac5bc8709662ea4ed" name="a50e056d9d6549a1ac5bc8709662ea4ed"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a50e056d9d6549a1ac5bc8709662ea4ed">&#9670;&nbsp;</a></span>Looping</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Engine.AnimatedSprite.Looping = true</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Whether the animation should be looping or not </p>
+
+</div>
+</div>
+<a id="a8c8a26498379ffdaec49856146d9ab3b" name="a8c8a26498379ffdaec49856146d9ab3b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8c8a26498379ffdaec49856146d9ab3b">&#9670;&nbsp;</a></span>Opacity</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float Engine.AnimatedSprite.Opacity = 1.0f</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Opacity of this sprite </p>
+
+</div>
+</div>
 <a id="a64d659d5bc58b2a2777731de1032dbcd" name="a64d659d5bc58b2a2777731de1032dbcd"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a64d659d5bc58b2a2777731de1032dbcd">&#9670;&nbsp;</a></span>Pivot</h2>
 
@@ -604,6 +734,38 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Rotation pivot of the sprite (by default the center of the size) Setting this to (-1, -1) will automatically evaluate to the center </p>
+
+</div>
+</div>
+<a id="ab781322f56b3c7fe8a0a7b97d35d0ef3" name="ab781322f56b3c7fe8a0a7b97d35d0ef3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab781322f56b3c7fe8a0a7b97d35d0ef3">&#9670;&nbsp;</a></span>RepeatTileSize</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Point Engine.AnimatedSprite.RepeatTileSize = new Point()</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>When the WrapMode is <a class="el" href="namespace_engine.html#aefbaefb596e4cf227ed4d6c379c67965a7020426cfb0a204051be4b3053d2acc8">WrappingMode.Repeat</a>, this is the size of one tile </p>
+
+</div>
+</div>
+<a id="a7913b1e0ac7f36c377c7a52a27b5fb81" name="a7913b1e0ac7f36c377c7a52a27b5fb81"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7913b1e0ac7f36c377c7a52a27b5fb81">&#9670;&nbsp;</a></span>ResetFrameAfterFinished</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Engine.AnimatedSprite.ResetFrameAfterFinished = true</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>If true, the animation is reset to frame #0 after the non-looping animation finished </p>
 
 </div>
 </div>
@@ -640,6 +802,30 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Property Documentation</h2>
+<a id="a286576775f3616d6dc3619e9843118c8" name="a286576775f3616d6dc3619e9843118c8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a286576775f3616d6dc3619e9843118c8">&#9670;&nbsp;</a></span>Animation</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">string Engine.AnimatedSprite.Animation</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The current animation to play (leave empty for first one) </p>
+
+</div>
+</div>
 <a id="af366927b73652de36fe7e3fbb9f523d7" name="af366927b73652de36fe7e3fbb9f523d7"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af366927b73652de36fe7e3fbb9f523d7">&#9670;&nbsp;</a></span>FlipMode</h2>
 
@@ -659,6 +845,30 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="a546bad9522c957a628f50976f44bec0c" name="a546bad9522c957a628f50976f44bec0c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a546bad9522c957a628f50976f44bec0c">&#9670;&nbsp;</a></span>WrapMode</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespace_engine.html#aefbaefb596e4cf227ed4d6c379c67965">WrappingMode</a> Engine.AnimatedSprite.WrapMode</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>This sprite's repeat mode </p>
 
 </div>
 </div>

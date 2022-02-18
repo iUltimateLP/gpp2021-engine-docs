@@ -59,10 +59,7 @@ var searchData=
   ['sdl_5fuserevent_56',['SDL_UserEvent',['../struct_s_d_l2_1_1_s_d_l_1_1_s_d_l___user_event.html',1,'SDL2::SDL']]],
   ['sdl_5fversion_57',['SDL_version',['../struct_s_d_l2_1_1_s_d_l_1_1_s_d_l__version.html',1,'SDL2::SDL']]],
   ['sdl_5fwindowevent_58',['SDL_WindowEvent',['../struct_s_d_l2_1_1_s_d_l_1_1_s_d_l___window_event.html',1,'SDL2::SDL']]],
-  ['shotgun_59',['Shotgun',['../class_bullet_hell_1_1_shotgun.html',1,'BulletHell']]],
-  ['shotgunpowerup_60',['ShotgunPowerUp',['../class_bullet_hell_1_1_power_ups_1_1_shotgun_power_up.html',1,'BulletHell::PowerUps']]],
-  ['sprite_61',['Sprite',['../class_engine_1_1_sprite.html',1,'Engine']]],
-  ['spritecacheelement_62',['SpriteCacheElement',['../class_engine_1_1_sprite_cache_element.html',1,'Engine']]],
-  ['spritesheetinfo_63',['SpritesheetInfo',['../struct_engine_1_1_spritesheet_info.html',1,'Engine']]],
-  ['startscreen_64',['StartScreen',['../class_breakout_1_1_start_screen.html',1,'Breakout']]]
+  ['sprite_59',['Sprite',['../class_engine_1_1_sprite.html',1,'Engine']]],
+  ['spritecacheelement_60',['SpriteCacheElement',['../class_engine_1_1_sprite_cache_element.html',1,'Engine']]],
+  ['spritesheetinfo_61',['SpritesheetInfo',['../struct_engine_1_1_animation_meta_file_1_1_spritesheet_info.html',1,'Engine::AnimationMetaFile']]]
 ];

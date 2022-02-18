@@ -8,5 +8,6 @@ var struct_engine_1_1_batched_renderer_element_info =
     [ "Flip", "struct_engine_1_1_batched_renderer_element_info.html#aea669c225d4eb739747cfc72527f2a1d", null ],
     [ "Resource", "struct_engine_1_1_batched_renderer_element_info.html#a864d127a3b71371c77ba493d2f916857", null ],
     [ "Rotation", "struct_engine_1_1_batched_renderer_element_info.html#a32ddbfc0ca3156fbd43e6150321e0d12", null ],
-    [ "SourceRect", "struct_engine_1_1_batched_renderer_element_info.html#ae0fd4abffe4d9249e94ca209fbdddc0d", null ]
+    [ "SourceRect", "struct_engine_1_1_batched_renderer_element_info.html#ae0fd4abffe4d9249e94ca209fbdddc0d", null ],
+    [ "TilingAxis", "struct_engine_1_1_batched_renderer_element_info.html#a8ef546c4bb3177b69ff71b01fdcb1e8e", null ]
 ];

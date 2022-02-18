@@ -1,5 +1,5 @@
 var searchData=
 [
   ['debugdraw_0',['DebugDraw',['../class_engine_1_1_debug_draw.html',1,'Engine']]],
-  ['directionmanipulator_1',['DirectionManipulator',['../class_breakout_1_1_direction_manipulator.html',1,'Breakout']]]
+  ['discordmanager_1',['DiscordManager',['../class_engine_1_1_discord_manager.html',1,'Engine']]]
 ];

@@ -85,6 +85,7 @@ $(document).ready(function(){initNavTree('class_engine_1_1_timer.html',''); init
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="#properties">Properties</a> &#124;
 <a href="class_engine_1_1_timer-members.html">List of all members</a>  </div>
@@ -110,6 +111,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a33db5423ce747201d73214140a14da51"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stops this timer  <a href="class_engine_1_1_timer.html#a33db5423ce747201d73214140a14da51">More...</a><br /></td></tr>
 <tr class="separator:a33db5423ce747201d73214140a14da51"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:a2530056955ea7314ff1003e9ff8a10b8"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_engine_1_1_timer.html#a2530056955ea7314ff1003e9ff8a10b8">Wait</a> (float seconds, Action action)</td></tr>
+<tr class="memdesc:a2530056955ea7314ff1003e9ff8a10b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Waits the amount of seconds, then executes the action  <a href="class_engine_1_1_timer.html#a2530056955ea7314ff1003e9ff8a10b8">More...</a><br /></td></tr>
+<tr class="separator:a2530056955ea7314ff1003e9ff8a10b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:ac9a056fc575d2bc8fed9a998770dd576"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_engine_1_1_timer.html#ac9a056fc575d2bc8fed9a998770dd576">Interval</a> = 0.0f</td></tr>
@@ -121,6 +128,9 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a310819a08b9aae8ca5694856f088cd3e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_engine_1_1_timer.html#a310819a08b9aae8ca5694856f088cd3e">Looping</a> = false</td></tr>
 <tr class="memdesc:a310819a08b9aae8ca5694856f088cd3e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether this timer should be looping  <a href="class_engine_1_1_timer.html#a310819a08b9aae8ca5694856f088cd3e">More...</a><br /></td></tr>
 <tr class="separator:a310819a08b9aae8ca5694856f088cd3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a98ff75cbb1b85764a59728d89217f1da"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_engine_1_1_timer.html#a98ff75cbb1b85764a59728d89217f1da">EnforceMainThread</a> = false</td></tr>
+<tr class="memdesc:a98ff75cbb1b85764a59728d89217f1da"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether to enforce this timer to run the callback on main thread  <a href="class_engine_1_1_timer.html#a98ff75cbb1b85764a59728d89217f1da">More...</a><br /></td></tr>
+<tr class="separator:a98ff75cbb1b85764a59728d89217f1da"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
 Properties</h2></td></tr>
@@ -215,7 +225,68 @@ Properties</h2></td></tr>
 
 </div>
 </div>
+<a id="a2530056955ea7314ff1003e9ff8a10b8" name="a2530056955ea7314ff1003e9ff8a10b8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2530056955ea7314ff1003e9ff8a10b8">&#9670;&nbsp;</a></span>Wait()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void Engine.Timer.Wait </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>seconds</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Action&#160;</td>
+          <td class="paramname"><em>action</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Waits the amount of seconds, then executes the action </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">seconds</td><td></td></tr>
+    <tr><td class="paramname">action</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a id="a98ff75cbb1b85764a59728d89217f1da" name="a98ff75cbb1b85764a59728d89217f1da"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a98ff75cbb1b85764a59728d89217f1da">&#9670;&nbsp;</a></span>EnforceMainThread</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Engine.Timer.EnforceMainThread = false</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Whether to enforce this timer to run the callback on main thread </p>
+
+</div>
+</div>
 <a id="ac9a056fc575d2bc8fed9a998770dd576" name="ac9a056fc575d2bc8fed9a998770dd576"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac9a056fc575d2bc8fed9a998770dd576">&#9670;&nbsp;</a></span>Interval</h2>
 

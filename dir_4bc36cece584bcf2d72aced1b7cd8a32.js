@@ -5,6 +5,9 @@ var dir_4bc36cece584bcf2d72aced1b7cd8a32 =
       [ "Engine.ConfigObject", "class_engine_1_1_config_object.html", "class_engine_1_1_config_object" ],
       [ "Engine.ConfigManager", "class_engine_1_1_config_manager.html", "class_engine_1_1_config_manager" ]
     ] ],
+    [ "DiscordManager.cs", "_discord_manager_8cs.html", [
+      [ "Engine.DiscordManager", "class_engine_1_1_discord_manager.html", "class_engine_1_1_discord_manager" ]
+    ] ],
     [ "FontManager.cs", "_font_manager_8cs.html", [
       [ "Engine.FontManager", "class_engine_1_1_font_manager.html", "class_engine_1_1_font_manager" ],
       [ "Engine.FontFile", "struct_engine_1_1_font_file.html", "struct_engine_1_1_font_file" ]
@@ -18,6 +21,11 @@ var dir_4bc36cece584bcf2d72aced1b7cd8a32 =
     ] ],
     [ "ResourceManager.cs", "_resource_manager_8cs.html", [
       [ "Engine.ResourceManager", "class_engine_1_1_resource_manager.html", null ]
+    ] ],
+    [ "TiledMapUtils.cs", "_tiled_map_utils_8cs.html", [
+      [ "Engine.TiledObjectMapping", "class_engine_1_1_tiled_object_mapping.html", "class_engine_1_1_tiled_object_mapping" ],
+      [ "Engine.ITiledObjectMappingInterface", "interface_engine_1_1_i_tiled_object_mapping_interface.html", "interface_engine_1_1_i_tiled_object_mapping_interface" ],
+      [ "Engine.TiledMapUtils", "class_engine_1_1_tiled_map_utils.html", null ]
     ] ],
     [ "WindowManager.cs", "_window_manager_8cs.html", [
       [ "Engine.ResolutionChangedEventArgs", "class_engine_1_1_resolution_changed_event_args.html", "class_engine_1_1_resolution_changed_event_args" ],

@@ -1,8 +1,5 @@
 var searchData=
 [
-  ['endstate_0',['EndState',['../class_bullet_hell_1_1_game_end_state.html#acec5b3c1d906709bb44928077a434a27',1,'BulletHell.GameEndState.EndState()'],['../class_bullet_hell_1_1_game_state.html#a96fb20ce1ffdea66098b9e53cc323974',1,'BulletHell.GameState.EndState()'],['../class_bullet_hell_1_1_menu_state.html#aede71c8c6f07f1b272e0051060b05175',1,'BulletHell.MenuState.EndState()'],['../interface_engine_1_1_i_game_state.html#a4c5d50f058143e440e4e486beec8bdfd',1,'Engine.IGameState.EndState()']]],
-  ['enemy_1',['Enemy',['../class_bullet_hell_1_1_enemy.html#a195cb0a38a1aea0f9a3e16a420f118b8',1,'BulletHell::Enemy']]],
-  ['enemyspawner_2',['EnemySpawner',['../class_bullet_hell_1_1_enemy_spawner.html#ac2cfa3d9fdb22bebd92060f8aa0ced75',1,'BulletHell::EnemySpawner']]],
-  ['error_3',['Error',['../class_engine_1_1_logger.html#aa27b05e4079e4988f16d20eafcb90550',1,'Engine::Logger']]],
-  ['executepowerup_4',['ExecutePowerUp',['../class_bullet_hell_1_1_power_ups_1_1_bullet_strength_power_up.html#a406fdc8cbe16f8216d4e4ef6ea3ad80c',1,'BulletHell.PowerUps.BulletStrengthPowerUp.ExecutePowerUp()'],['../class_bullet_hell_1_1_power_ups_1_1_heart.html#a6934362d1a44faaf07810c26e2ba6a72',1,'BulletHell.PowerUps.Heart.ExecutePowerUp()'],['../class_bullet_hell_1_1_power_ups_1_1_power_up.html#a7e661c7bb7016c9204a5d59edc076a3f',1,'BulletHell.PowerUps.PowerUp.ExecutePowerUp()'],['../class_bullet_hell_1_1_power_ups_1_1_shotgun_power_up.html#ac3cf94d8992d540662ef069a5a5d6530',1,'BulletHell.PowerUps.ShotgunPowerUp.ExecutePowerUp()'],['../class_bullet_hell_1_1_power_ups_1_1_weapon_damage_upgrade.html#a2c2e76f12bb1f9d82b7005011894172b',1,'BulletHell.PowerUps.WeaponDamageUpgrade.ExecutePowerUp()']]]
+  ['endstate_0',['EndState',['../interface_engine_1_1_i_game_state.html#a4c5d50f058143e440e4e486beec8bdfd',1,'Engine::IGameState']]],
+  ['error_1',['Error',['../class_engine_1_1_logger.html#aa27b05e4079e4988f16d20eafcb90550',1,'Engine::Logger']]]
 ];

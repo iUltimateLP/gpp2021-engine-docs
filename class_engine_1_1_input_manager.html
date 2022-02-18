@@ -107,12 +107,18 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a052fa921f1a7e7f717111cda338ae626"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_engine_1_1_input_manager.html#a052fa921f1a7e7f717111cda338ae626">Shutdown</a> ()</td></tr>
 <tr class="memdesc:a052fa921f1a7e7f717111cda338ae626"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shuts down the input manager  <a href="class_engine_1_1_input_manager.html#a052fa921f1a7e7f717111cda338ae626">More...</a><br /></td></tr>
 <tr class="separator:a052fa921f1a7e7f717111cda338ae626"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a76623ce9b6f25921f43155b2165134f1"><td class="memItemLeft" align="right" valign="top">UInt32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_engine_1_1_input_manager.html#a76623ce9b6f25921f43155b2165134f1">PollJoysticks</a> (UInt32 interval, IntPtr param)</td></tr>
-<tr class="memdesc:a76623ce9b6f25921f43155b2165134f1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Polls joystick values and notifies the corresponding axis values  <a href="class_engine_1_1_input_manager.html#a76623ce9b6f25921f43155b2165134f1">More...</a><br /></td></tr>
-<tr class="separator:a76623ce9b6f25921f43155b2165134f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad128769f1610a80c3fe27a6becd2253f"><td class="memItemLeft" align="right" valign="top">UInt32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_engine_1_1_input_manager.html#ad128769f1610a80c3fe27a6becd2253f">Poll</a> (UInt32 interval, IntPtr param)</td></tr>
+<tr class="memdesc:ad128769f1610a80c3fe27a6becd2253f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Polls on tick any ongoing actions  <a href="class_engine_1_1_input_manager.html#ad128769f1610a80c3fe27a6becd2253f">More...</a><br /></td></tr>
+<tr class="separator:ad128769f1610a80c3fe27a6becd2253f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a93171a92282b4ea96fdf786b1a17bed5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_engine_1_1_input_manager.html#a93171a92282b4ea96fdf786b1a17bed5">PollJoysticks</a> ()</td></tr>
+<tr class="memdesc:a93171a92282b4ea96fdf786b1a17bed5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Polls joystick values and notifies the corresponding axis values  <a href="class_engine_1_1_input_manager.html#a93171a92282b4ea96fdf786b1a17bed5">More...</a><br /></td></tr>
+<tr class="separator:a93171a92282b4ea96fdf786b1a17bed5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acfddd1ac5dfaf3e9a39c6f2e475e8882"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_engine_1_1_input_manager.html#acfddd1ac5dfaf3e9a39c6f2e475e8882">BindAction</a> (string actionName, Action&lt; <a class="el" href="class_engine_1_1_action_event_args.html">ActionEventArgs</a> &gt; handler)</td></tr>
 <tr class="memdesc:acfddd1ac5dfaf3e9a39c6f2e475e8882"><td class="mdescLeft">&#160;</td><td class="mdescRight">Binds an action.  <a href="class_engine_1_1_input_manager.html#acfddd1ac5dfaf3e9a39c6f2e475e8882">More...</a><br /></td></tr>
 <tr class="separator:acfddd1ac5dfaf3e9a39c6f2e475e8882"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae1efd89668533d1a19c0ea3234320c40"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_engine_1_1_input_manager.html#ae1efd89668533d1a19c0ea3234320c40">UnbindAllActions</a> (string actionName)</td></tr>
+<tr class="memdesc:ae1efd89668533d1a19c0ea3234320c40"><td class="mdescLeft">&#160;</td><td class="mdescRight">Unbinds all actions with the given name.  <a href="class_engine_1_1_input_manager.html#ae1efd89668533d1a19c0ea3234320c40">More...</a><br /></td></tr>
+<tr class="separator:ae1efd89668533d1a19c0ea3234320c40"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1d376183f7419a6e2a63b5894f3a9865"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_engine_1_1_input_manager.html#a1d376183f7419a6e2a63b5894f3a9865">GetKeyState</a> (<a class="el" href="namespace_engine.html#a66dcd1cf08e61de878504acc263ecb70">KeyCode</a> key)</td></tr>
 <tr class="memdesc:a1d376183f7419a6e2a63b5894f3a9865"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns whether the specified key is down  <a href="class_engine_1_1_input_manager.html#a1d376183f7419a6e2a63b5894f3a9865">More...</a><br /></td></tr>
 <tr class="separator:a1d376183f7419a6e2a63b5894f3a9865"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -128,9 +134,9 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a179f826890276e1f701b261fcc3ff17f"><td class="memItemLeft" align="right" valign="top">uint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_engine_1_1_input_manager.html#a179f826890276e1f701b261fcc3ff17f">JoystickPollInterval</a> = 16</td></tr>
-<tr class="memdesc:a179f826890276e1f701b261fcc3ff17f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Interval in which the input manager will poll the joystick, in milliseconds By default 16ms (~60 Hz)  <a href="class_engine_1_1_input_manager.html#a179f826890276e1f701b261fcc3ff17f">More...</a><br /></td></tr>
-<tr class="separator:a179f826890276e1f701b261fcc3ff17f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa43a6e9f9d85a5d9aa01c64be9988e18"><td class="memItemLeft" align="right" valign="top">uint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_engine_1_1_input_manager.html#aa43a6e9f9d85a5d9aa01c64be9988e18">pollInterval</a> = 16</td></tr>
+<tr class="memdesc:aa43a6e9f9d85a5d9aa01c64be9988e18"><td class="mdescLeft">&#160;</td><td class="mdescRight">Interval in which the input manager will poll the joystick, in milliseconds By default 16ms (~60 Hz)  <a href="class_engine_1_1_input_manager.html#aa43a6e9f9d85a5d9aa01c64be9988e18">More...</a><br /></td></tr>
+<tr class="separator:aa43a6e9f9d85a5d9aa01c64be9988e18"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
 Properties</h2></td></tr>
@@ -332,14 +338,14 @@ Events</h2></td></tr>
 
 </div>
 </div>
-<a id="a76623ce9b6f25921f43155b2165134f1" name="a76623ce9b6f25921f43155b2165134f1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a76623ce9b6f25921f43155b2165134f1">&#9670;&nbsp;</a></span>PollJoysticks()</h2>
+<a id="ad128769f1610a80c3fe27a6becd2253f" name="ad128769f1610a80c3fe27a6becd2253f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad128769f1610a80c3fe27a6becd2253f">&#9670;&nbsp;</a></span>Poll()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">UInt32 Engine.InputManager.PollJoysticks </td>
+          <td class="memname">UInt32 Engine.InputManager.Poll </td>
           <td>(</td>
           <td class="paramtype">UInt32&#160;</td>
           <td class="paramname"><em>interval</em>, </td>
@@ -354,6 +360,25 @@ Events</h2></td></tr>
           <td></td>
           <td>)</td>
           <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Polls on tick any ongoing actions </p>
+
+</div>
+</div>
+<a id="a93171a92282b4ea96fdf786b1a17bed5" name="a93171a92282b4ea96fdf786b1a17bed5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a93171a92282b4ea96fdf786b1a17bed5">&#9670;&nbsp;</a></span>PollJoysticks()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Engine.InputManager.PollJoysticks </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -381,15 +406,41 @@ Events</h2></td></tr>
 
 </div>
 </div>
-<h2 class="groupheader">Member Data Documentation</h2>
-<a id="a179f826890276e1f701b261fcc3ff17f" name="a179f826890276e1f701b261fcc3ff17f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a179f826890276e1f701b261fcc3ff17f">&#9670;&nbsp;</a></span>JoystickPollInterval</h2>
+<a id="ae1efd89668533d1a19c0ea3234320c40" name="ae1efd89668533d1a19c0ea3234320c40"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae1efd89668533d1a19c0ea3234320c40">&#9670;&nbsp;</a></span>UnbindAllActions()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">uint Engine.InputManager.JoystickPollInterval = 16</td>
+          <td class="memname">void Engine.InputManager.UnbindAllActions </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>actionName</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Unbinds all actions with the given name. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">actionName</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="aa43a6e9f9d85a5d9aa01c64be9988e18" name="aa43a6e9f9d85a5d9aa01c64be9988e18"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa43a6e9f9d85a5d9aa01c64be9988e18">&#9670;&nbsp;</a></span>pollInterval</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint Engine.InputManager.pollInterval = 16</td>
         </tr>
       </table>
 </div><div class="memdoc">

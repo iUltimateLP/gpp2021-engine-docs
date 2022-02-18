@@ -101,9 +101,15 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ab7745bc1336fec515e52374d7cc4fd8f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_engine_1_1_physics_manager.html#ab7745bc1336fec515e52374d7cc4fd8f">InitializeScene</a> ()</td></tr>
 <tr class="memdesc:ab7745bc1336fec515e52374d7cc4fd8f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes the physics scene  <a href="class_engine_1_1_physics_manager.html#ab7745bc1336fec515e52374d7cc4fd8f">More...</a><br /></td></tr>
 <tr class="separator:ab7745bc1336fec515e52374d7cc4fd8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a46b604a62c1d2df23f069b744bee0486"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_engine_1_1_physics_manager.html#a46b604a62c1d2df23f069b744bee0486">DeinitializeScene</a> ()</td></tr>
+<tr class="memdesc:a46b604a62c1d2df23f069b744bee0486"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deinitialize the physics scene  <a href="class_engine_1_1_physics_manager.html#a46b604a62c1d2df23f069b744bee0486">More...</a><br /></td></tr>
+<tr class="separator:a46b604a62c1d2df23f069b744bee0486"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad884fd021f1f85fe036f41ca55c646a3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_engine_1_1_physics_manager.html#ad884fd021f1f85fe036f41ca55c646a3">RunSimulation</a> (float deltaTime)</td></tr>
 <tr class="memdesc:ad884fd021f1f85fe036f41ca55c646a3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Runs the physics simulation tick  <a href="class_engine_1_1_physics_manager.html#ad884fd021f1f85fe036f41ca55c646a3">More...</a><br /></td></tr>
 <tr class="separator:ad884fd021f1f85fe036f41ca55c646a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4c91502e74806abcc19dce6b3ceb2101"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_engine_1_1_physics_manager.html#a4c91502e74806abcc19dce6b3ceb2101">Raycast</a> (Vector2 startLoc, Vector2 endLoc, List&lt; <a class="el" href="class_engine_1_1_physics_entity.html">PhysicsEntity</a> &gt; entitiesToIgnore, out <a class="el" href="class_engine_1_1_game_object.html">GameObject</a> hitObject)</td></tr>
+<tr class="memdesc:a4c91502e74806abcc19dce6b3ceb2101"><td class="mdescLeft">&#160;</td><td class="mdescRight">Performs a raycast between the start and end location  <a href="class_engine_1_1_physics_manager.html#a4c91502e74806abcc19dce6b3ceb2101">More...</a><br /></td></tr>
+<tr class="separator:a4c91502e74806abcc19dce6b3ceb2101"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -146,6 +152,25 @@ Properties</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >Initializes and maintains the physics state using </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="a46b604a62c1d2df23f069b744bee0486" name="a46b604a62c1d2df23f069b744bee0486"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a46b604a62c1d2df23f069b744bee0486">&#9670;&nbsp;</a></span>DeinitializeScene()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Engine.PhysicsManager.DeinitializeScene </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Deinitialize the physics scene </p>
+
+</div>
+</div>
 <a id="ab7745bc1336fec515e52374d7cc4fd8f" name="ab7745bc1336fec515e52374d7cc4fd8f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab7745bc1336fec515e52374d7cc4fd8f">&#9670;&nbsp;</a></span>InitializeScene()</h2>
 
@@ -162,6 +187,58 @@ Properties</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Initializes the physics scene </p>
+
+</div>
+</div>
+<a id="a4c91502e74806abcc19dce6b3ceb2101" name="a4c91502e74806abcc19dce6b3ceb2101"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4c91502e74806abcc19dce6b3ceb2101">&#9670;&nbsp;</a></span>Raycast()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Engine.PhysicsManager.Raycast </td>
+          <td>(</td>
+          <td class="paramtype">Vector2&#160;</td>
+          <td class="paramname"><em>startLoc</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Vector2&#160;</td>
+          <td class="paramname"><em>endLoc</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">List&lt; <a class="el" href="class_engine_1_1_physics_entity.html">PhysicsEntity</a> &gt;&#160;</td>
+          <td class="paramname"><em>entitiesToIgnore</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">out <a class="el" href="class_engine_1_1_game_object.html">GameObject</a>&#160;</td>
+          <td class="paramname"><em>hitObject</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Performs a raycast between the start and end location </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">startLoc</td><td></td></tr>
+    <tr><td class="paramname">endLoc</td><td></td></tr>
+    <tr><td class="paramname">entitiesToIgnore</td><td></td></tr>
+    <tr><td class="paramname">hitObject</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Whether it hit an object or not</dd></dl>
 
 </div>
 </div>

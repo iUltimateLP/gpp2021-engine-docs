@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['world_0',['World',['../class_engine_1_1_physics_manager.html#af437de713c0482e08fc24e5c0c5f66e4',1,'Engine::PhysicsManager']]],
-  ['wrapmode_1',['WrapMode',['../class_engine_1_1_sprite.html#a424f75c1a1eccb52dda3e710bdbc9f63',1,'Engine.Sprite.WrapMode()'],['../class_engine_1_1_u_i_sprite.html#af1efac375988862a550e59819edcb028',1,'Engine.UISprite.WrapMode()']]]
+  ['velocity_0',['Velocity',['../class_engine_1_1_body.html#a66c7346ee67ac0dc3358b305f0743164',1,'Engine::Body']]],
+  ['visible_1',['Visible',['../class_engine_1_1_u_i_element.html#a76d2f8ab24fe2f0f3620ff1f9fa07612',1,'Engine::UIElement']]]
 ];
